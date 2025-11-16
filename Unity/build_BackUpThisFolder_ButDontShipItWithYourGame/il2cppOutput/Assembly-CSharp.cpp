@@ -1,0 +1,9461 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct VirtualActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct VirtualFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+
+struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+struct AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD;
+struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
+struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
+struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
+struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
+struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
+struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA;
+struct List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
+struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
+struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A;
+struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
+struct SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192;
+struct SignLessonU5BU5D_t318A469D6B10CB81F4D322459746AF6B122BAEF3;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
+struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9;
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5;
+struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
+struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ConfusionDebugger_t9E32ACF76A99320EEBFE2947301803EC03C544FA;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A;
+struct DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462;
+struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F;
+struct EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC;
+struct EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293;
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+struct Exception_t;
+struct ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
+struct IPrincipal_tE7AF5096287F6C3472585E124CB38FF2A51EAB5F;
+struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InternalThread_tF40B7BFCBD60C82BD8475A22FF5186CA10293687;
+struct LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D;
+struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
+struct LocalDataStoreHolder_t789DD474AE5141213C2105CE57830ECFC2D3C03F;
+struct LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct MulticastDelegate_t;
+struct NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2;
+struct ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387;
+struct SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A;
+struct SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64;
+struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct StringBuilder_t;
+struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
+struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
+struct TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4;
+struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39;
+struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C;
+struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
+struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
+struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+struct TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58;
+struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
+struct TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F;
+struct ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6;
+struct VRLabelDisplay_t6416F30B60D517056FEA6F0E156B885CBD990D4D;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749;
+struct WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761;
+struct YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05;
+struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
+struct U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0;
+struct U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD;
+
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____254C0D9336D9385F54E649235992D539B01E4A1F57F46269D41611752BA9EC92_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____ACC521CAF26150601958C03D2A0458AF6A4987F5580CBAA1E162A9310A167490_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral07AFC5D569F1A74B6E4B8F99AA559D4BE623949E;
+IL2CPP_EXTERN_C String_t* _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9;
+IL2CPP_EXTERN_C String_t* _stringLiteral0B9CFC1A4420F6EE6B56FA181A2939D5F372253C;
+IL2CPP_EXTERN_C String_t* _stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939;
+IL2CPP_EXTERN_C String_t* _stringLiteral124ABC5A7886C644C959B6CB54D65E76DC0B8184;
+IL2CPP_EXTERN_C String_t* _stringLiteral130E8A3DCEE46887C30F275DB6E3DEBE86EB2008;
+IL2CPP_EXTERN_C String_t* _stringLiteral1583973FB0B09392117F03837DD5B78D4FD727F6;
+IL2CPP_EXTERN_C String_t* _stringLiteral16E59EAB15DC8C0AC8CF3AC28E394C6216B83FA8;
+IL2CPP_EXTERN_C String_t* _stringLiteral180E5EA33133B51817A4D631DA50E38743BEBE73;
+IL2CPP_EXTERN_C String_t* _stringLiteral18FBC9C90A2D9B21A47E2F8D99AC8E751FB007FA;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral25BCD31D3AA81405EBA434F4119963F248A660B8;
+IL2CPP_EXTERN_C String_t* _stringLiteral27EF701CFF88697340EA47FD2A853D9EC1BE3DD4;
+IL2CPP_EXTERN_C String_t* _stringLiteral2B4AFA89CE8517C3D724097509C66B839B9D97B2;
+IL2CPP_EXTERN_C String_t* _stringLiteral310DE9603F9C460CCE538C9ECFD8352FBE539051;
+IL2CPP_EXTERN_C String_t* _stringLiteral364CE8B0603A6FE54B4BE0D679669A3BF874615F;
+IL2CPP_EXTERN_C String_t* _stringLiteral3702A8B5A4C81523F23D449231DA399EEEEC282C;
+IL2CPP_EXTERN_C String_t* _stringLiteral40C9317C6324C1FC9ABA8D6641C5EB8B3E776498;
+IL2CPP_EXTERN_C String_t* _stringLiteral4181483011D5EFCD09D570BB1DA2C6D117FC51F3;
+IL2CPP_EXTERN_C String_t* _stringLiteral490A649D58C90690DA65BDEC93F89E6149A3CC4E;
+IL2CPP_EXTERN_C String_t* _stringLiteral4C1AABD5822631DC8C39AE38F072C47BA2E1E013;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D1C4ECDA72C17A8D0D086170361389D8C0FFDFE;
+IL2CPP_EXTERN_C String_t* _stringLiteral4E83B607B3E5C53A12D1377E64950110B7D4189B;
+IL2CPP_EXTERN_C String_t* _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C;
+IL2CPP_EXTERN_C String_t* _stringLiteral508A9C4D635B663F0F10003A2D0DD536CBAD2DC3;
+IL2CPP_EXTERN_C String_t* _stringLiteral5206A59AE44BA11C998DEE1231D2411561032A5B;
+IL2CPP_EXTERN_C String_t* _stringLiteral53D6103E328004EF70389F295A8AC1506BF19299;
+IL2CPP_EXTERN_C String_t* _stringLiteral58FA3277A72F2538B97F30166EDB61D028C91038;
+IL2CPP_EXTERN_C String_t* _stringLiteral5F780983832B24FEE74A3B4ED006D6FFEDE205A7;
+IL2CPP_EXTERN_C String_t* _stringLiteral630518F52FA033EC3430FCAACB91188BE6BBD892;
+IL2CPP_EXTERN_C String_t* _stringLiteral631F1D8220345CFCA9AC94A55B2BF6BEBCEBF848;
+IL2CPP_EXTERN_C String_t* _stringLiteral635B407FD722C7049E46BE444737C62AE76F3D95;
+IL2CPP_EXTERN_C String_t* _stringLiteral6A0DFD5CB221E36F85A26B51D1EF5005F9CE457A;
+IL2CPP_EXTERN_C String_t* _stringLiteral725FED70D7F0CCCACB1DEE2D448DF292BBE5715D;
+IL2CPP_EXTERN_C String_t* _stringLiteral7383F2137A229EE6901B401D8F932FEE829AAAA8;
+IL2CPP_EXTERN_C String_t* _stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE;
+IL2CPP_EXTERN_C String_t* _stringLiteral7933D6CD56D009A91F2CB5491A982C800424F98C;
+IL2CPP_EXTERN_C String_t* _stringLiteral80C415E95C33DB2D1C61AAAFFB38799025581810;
+IL2CPP_EXTERN_C String_t* _stringLiteral81C4F32FB96BD4A007CB83D055888ECEBB503458;
+IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
+IL2CPP_EXTERN_C String_t* _stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1;
+IL2CPP_EXTERN_C String_t* _stringLiteral8CE2B5F1AE99AB2062CA1B8A43B7AEF51096A6DE;
+IL2CPP_EXTERN_C String_t* _stringLiteral90014B6EB44E2C6C82D99DEBE61082FDA597EA16;
+IL2CPP_EXTERN_C String_t* _stringLiteral95421771C1ADB04CC6263082B88328E11A8C02BA;
+IL2CPP_EXTERN_C String_t* _stringLiteral988800C640D5A43384B19BB0267F920E81BB50CF;
+IL2CPP_EXTERN_C String_t* _stringLiteral9A8C9B8F0FF6A41CC4685D718A433F11D0A7A83E;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B24672FD95893F2334785B2F35B65C06C48F612;
+IL2CPP_EXTERN_C String_t* _stringLiteralA2C91966BF5F5B8F6CCE37DE47FDE7AB6FDBC55A;
+IL2CPP_EXTERN_C String_t* _stringLiteralA4103FE9F9D5F60167F401CA9473FA131EC227E1;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8170EABDB149E7F082ED5160F467F02C61CB809;
+IL2CPP_EXTERN_C String_t* _stringLiteralA85A777DF4FECFEA1A2F33301F0CD0847FAFEB9E;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8FFB2D2FB57EBD26F528E7B2307AFFD8AC5FB42;
+IL2CPP_EXTERN_C String_t* _stringLiteralAB937E11991FC86C2894FD20DFA782146E88700A;
+IL2CPP_EXTERN_C String_t* _stringLiteralB95FBF1DC2934585D741BB32E02EE02C98002CB0;
+IL2CPP_EXTERN_C String_t* _stringLiteralBDA26812216CBB36F89521AB027882B666A45E6F;
+IL2CPP_EXTERN_C String_t* _stringLiteralC76A51D9C38F8BFDBFAA3427D2A47E749FE3105A;
+IL2CPP_EXTERN_C String_t* _stringLiteralC79852150AB75DBFC40B085836BB6E8436FC2F0B;
+IL2CPP_EXTERN_C String_t* _stringLiteralC9633EF206FE6186AE1B2CFD44FDD560DCF6CD04;
+IL2CPP_EXTERN_C String_t* _stringLiteralCB24041CFB99CE7A9522A0827F84BB95E3C4B7D4;
+IL2CPP_EXTERN_C String_t* _stringLiteralD65D5414D3CB0BB17A413AF1C1BEBA6483BEA2E5;
+IL2CPP_EXTERN_C String_t* _stringLiteralD8D5C4CB8E313BC5D37E494A419F8D568CDCDB84;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralE1A4F5EBEA23BD93FB5675E5BD2FAA0788F7B206;
+IL2CPP_EXTERN_C String_t* _stringLiteralF49E424C6629887E0B511330D4FF4C0D825AABE5;
+IL2CPP_EXTERN_C String_t* _stringLiteralF4C2FEE51B877474C0269DE70C6E7A3EBA56BD49;
+IL2CPP_EXTERN_C String_t* _stringLiteralF59305BD24B853B50B135E0D58984D2EB9DB5D0B;
+IL2CPP_EXTERN_C String_t* _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2;
+IL2CPP_EXTERN_C String_t* _stringLiteralFE054B824342636EC78C7006036F2A6DCE86F2B6;
+IL2CPP_EXTERN_C String_t* _stringLiteralFFD85EE06DBEBE3F379A6E568C99B4788F084BEC;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EEGReceiver_ReceiveData_m035B6C8B40443E959E6DE62AD52B0ADCB9B0ED0F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EegConfusionClient_ReceiveLoop_m9B40A05AE611497CBCF81B84E25838109A34B806_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387_mEDABE9FCE39BB874C09C6A27CE1AC5BEB89F46A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LLMVRCameraStreamer_ReceiveLoop_m794BEA9E2ECF05D0FFC5F2F9FE9388474A0DEAE7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m9E974088BCE17C56CB680C44BAE09EE72EE6833D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m3C0B4D9DD354780175A87A53ACCE9851FCBE518D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC8A044C0E3A50C1EA1BF3DF15150A942C3E86DC2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDB2462F97F47C764CBFEB0A47691775712ECC73A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m9F1FC9C6704A2B80B7E5AD5B3A8C88FAF4D55354_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCaptureLoopU3Ed__16_System_Collections_IEnumerator_Reset_m02014CAD5B9BE7E647A9DA9C77129CA2CA254BAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCaptureLoopU3Ed__17_System_Collections_IEnumerator_Reset_mB3D1DCA0EE756FEA64CB3D23ED4E028D2031E5AB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CStartDelayedCaptureU3Ed__28_System_Collections_IEnumerator_Reset_mE29AF8424F0760E26DFFE3EC5056DE60A643C1F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* VRCameraStreamer_ReceiveLoop_m70E4A2FE6EAAA0098384FE8E5DB74AFF457B17C9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* YoloSignClientPC_ReceiveLoop_mD69C147147CF4D8059EF1124415108B17F15A0EF_RuntimeMethod_var;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+struct Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B  : public RuntimeObject
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA  : public RuntimeObject
+{
+	SignLessonU5BU5D_t318A469D6B10CB81F4D322459746AF6B122BAEF3* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206  : public RuntimeObject
+{
+	SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77  : public RuntimeObject
+{
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ____array;
+	int32_t ____head;
+	int32_t ____tail;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9  : public RuntimeObject
+{
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
+{
+	bool ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	bool ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	String_t* ___m_name;
+	String_t* ___englishname;
+	String_t* ___nativename;
+	String_t* ___iso3lang;
+	String_t* ___iso2lang;
+	String_t* ___win3lang;
+	String_t* ___territory;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture;
+	bool ___constructed;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData;
+	bool ___m_isInherited;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
+{
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	char* ___m_name;
+	char* ___englishname;
+	char* ___nativename;
+	char* ___iso3lang;
+	char* ___iso2lang;
+	char* ___win3lang;
+	char* ___territory;
+	char** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData;
+	int32_t ___m_isInherited;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
+{
+	int32_t ___m_isReadOnly;
+	int32_t ___cultureID;
+	int32_t ___parent_lcid;
+	int32_t ___datetime_index;
+	int32_t ___number_index;
+	int32_t ___default_calendar_type;
+	int32_t ___m_useUserOverride;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo;
+	Il2CppChar* ___m_name;
+	Il2CppChar* ___englishname;
+	Il2CppChar* ___nativename;
+	Il2CppChar* ___iso3lang;
+	Il2CppChar* ___iso2lang;
+	Il2CppChar* ___win3lang;
+	Il2CppChar* ___territory;
+	Il2CppChar** ___native_calendar_names;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo;
+	void* ___textinfo_data;
+	int32_t ___m_dataItem;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture;
+	int32_t ___constructed;
+	Il2CppSafeArray* ___cached_serialized_form;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData;
+	int32_t ___m_isInherited;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
+{
+	int32_t ___m_codePage;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem;
+	bool ___m_deserializedFromEverett;
+	bool ___m_isReadOnly;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE  : public RuntimeObject
+{
+	RuntimeObject* ____identity;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_pinvoke
+{
+	Il2CppIUnknown* ____identity;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_com
+{
+	Il2CppIUnknown* ____identity;
+};
+struct ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387  : public RuntimeObject
+{
+	String_t* ___mode;
+	String_t* ___label;
+	float ___conf;
+	String_t* ___gemini;
+	String_t* ___error;
+	int32_t ___eeg_confused;
+};
+struct SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A  : public RuntimeObject
+{
+	String_t* ___id;
+	String_t* ___displayName;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___referenceSprite;
+	String_t* ___yoloLabel;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct StringBuilder_t  : public RuntimeObject
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_ChunkChars;
+	StringBuilder_t* ___m_ChunkPrevious;
+	int32_t ___m_ChunkLength;
+	int32_t ___m_ChunkOffset;
+	int32_t ___m_MaxCapacity;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* ___U3CU3E4__this;
+};
+struct U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* ___U3CU3E4__this;
+	WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* ___U3CcamTexU3E5__2;
+};
+struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___itemStack;
+	int32_t ___index;
+	float ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C 
+{
+	TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A* ___itemStack;
+	int32_t ___index;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
+{
+	Il2CppChar ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B 
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___isDefaultMaterial;
+	bool ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_pinvoke
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
+};
+struct TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC 
+{
+	uint8_t ___bold;
+	uint8_t ___italic;
+	uint8_t ___underline;
+	uint8_t ___strikethrough;
+	uint8_t ___highlight;
+	uint8_t ___superscript;
+	uint8_t ___subscript;
+	uint8_t ___uppercase;
+	uint8_t ___lowercase;
+	uint8_t ___smallcaps;
+};
+struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 
+{
+	float ___m_Left;
+	float ___m_Right;
+	float ___m_Top;
+	float ___m_Bottom;
+};
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F  : public CriticalFinalizerObject_t1DCAB623CAEA6529A96F5F3EDE3C7048A6E313C9
+{
+	InternalThread_tF40B7BFCBD60C82BD8475A22FF5186CA10293687* ___internal_thread;
+	RuntimeObject* ___m_ThreadStartArg;
+	RuntimeObject* ___pending_exception;
+	MulticastDelegate_t* ___m_Delegate;
+	ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710* ___m_ExecutionContext;
+	bool ___m_ExecutionContextBelongsToOuterScope;
+	RuntimeObject* ___principal;
+	int32_t ___principal_version;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D298_tE78FA0657835BA99E37E8D5E4093C6E888D9097A 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D298_tE78FA0657835BA99E37E8D5E4093C6E888D9097A__padding[298];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D496_tF8B160814AABA93D02E3A796AE0AFCF1E5268DC3 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D496_tF8B160814AABA93D02E3A796AE0AFCF1E5268DC3__padding[496];
+	};
+};
+#pragma pack(pop, tp)
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_pinvoke
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_com
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 
+{
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_com
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
+{
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___itemStack;
+	int32_t ___index;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___itemStack;
+	int32_t ___index;
+	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct AddressFamily_t01AA8C9FD15E4727B241F1F453D88444337C7524 
+{
+	int32_t ___value__;
+};
+struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF 
+{
+	int32_t ___value__;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___min;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max;
+};
+struct FontStyles_t9E611EE6BBE6E192A73EAFF7872596517C527FF5 
+{
+	int32_t ___value__;
+};
+struct FontWeight_tA2585C0A73B70D31CE71E7843149098A5E16BC80 
+{
+	int32_t ___value__;
+};
+struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
+	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___padding;
+};
+struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1 
+{
+	int32_t ___value__;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct MaskingTypes_tF4913BE3D6A47C3AD642902F83C6C52B4A39D2B5 
+{
+	int32_t ___value__;
+};
+struct NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* ____streamSocket;
+	bool ____ownsSocket;
+	bool ____readable;
+	bool ____writeable;
+	int32_t ____closeTimeout;
+	bool ____cleanedUp;
+	int32_t ____currentReadTimeout;
+	int32_t ____currentWriteTimeout;
+};
+struct NumberStyles_t567C6CBC2A2B5B5A2C43B2855D158949984A810C 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct RenderTextureFormat_tB6F1ED5040395B46880CE00312D2FDDBF9EEB40F 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct StringSplitOptions_t4DD892C76C70DD4800FC1B76054D69826F770062 
+{
+	int32_t ___value__;
+};
+struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
+{
+	int32_t ___value__;
+};
+struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203 
+{
+	int32_t ___value__;
+};
+struct TextRenderFlags_tE023FF398ECFE57A1DBC6FD2A1AF4AE9620F6E1C 
+{
+	int32_t ___value__;
+};
+struct TextWrappingModes_t982BC65D6DA703E73C04B99286285ECD3DDF207E 
+{
+	int32_t ___value__;
+};
+struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	int32_t ___value__;
+};
+struct TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE 
+{
+	int32_t ___value__;
+};
+struct VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topRight;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomRight;
+};
+struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8 
+{
+	int32_t ___value__;
+};
+struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct WebCamKind_t6E6C1B17D52A297F99D6A758D43B6D90D3287D5C 
+{
+	int32_t ___value__;
+};
+struct AspectMode_tF6129E542D85CDCF51C583861975092B857776F5 
+{
+	int32_t ___value__;
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
+{
+	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D 
+{
+	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___itemStack;
+	int32_t ___index;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 
+{
+	HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
+{
+	int32_t ___controlCharacterCount;
+	int32_t ___characterCount;
+	int32_t ___visibleCharacterCount;
+	int32_t ___spaceCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___wordCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharacterIndex;
+	float ___length;
+	float ___lineHeight;
+	float ___ascender;
+	float ___baseline;
+	float ___descender;
+	float ___maxAdvance;
+	float ___width;
+	float ___marginLeft;
+	float ___marginRight;
+	int32_t ___alignment;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___lineExtents;
+};
+struct TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58  : public RuntimeObject
+{
+	Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* ___m_ClientSocket;
+	bool ___m_Active;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ___m_DataStream;
+	int32_t ___m_Family;
+	bool ___m_CleanedUp;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C 
+{
+	String_t* ___m_Name;
+	String_t* ___m_DepthCameraName;
+	int32_t ___m_Flags;
+	int32_t ___m_Kind;
+	ResolutionU5BU5D_t943BB1FE2B73E9E630A701D55F4C6EED8B54175A* ___m_Resolutions;
+};
+struct WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C_marshaled_pinvoke
+{
+	char* ___m_Name;
+	char* ___m_DepthCameraName;
+	int32_t ___m_Flags;
+	int32_t ___m_Kind;
+	Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* ___m_Resolutions;
+};
+struct WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C_marshaled_com
+{
+	Il2CppChar* ___m_Name;
+	Il2CppChar* ___m_DepthCameraName;
+	int32_t ___m_Flags;
+	int32_t ___m_Kind;
+	Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* ___m_Resolutions;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2  : public MulticastDelegate_t
+{
+};
+struct WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	bool ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	bool ___tagNoParsing;
+	bool ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_pinvoke
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
+{
+	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___itemStack;
+	int32_t ___index;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ConfusionDebugger_t9E32ACF76A99320EEBFE2947301803EC03C544FA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* ___receiver;
+};
+struct DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___captureCamera;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___captureRT;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___tex;
+};
+struct EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___serverIP;
+	int32_t ___serverPort;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* ___client;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ___stream;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___receiveThread;
+	int32_t ___latestPrediction;
+};
+struct EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___serverIp;
+	int32_t ___serverPort;
+	bool ___logDebug;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* ___client;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ___stream;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___recvThread;
+	int32_t ___latestPred;
+	bool ___running;
+};
+struct LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___serverIp;
+	int32_t ___serverPort;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___captureCamera;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___captureRT;
+	float ___sendInterval;
+	int32_t ___jpgQuality;
+	float ___geminiInterval;
+	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___geminiTextUI;
+	bool ___logDebug;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* ___client;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ___stream;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___captureTex;
+	bool ___connected;
+	bool ___running;
+	String_t* ___latestLabel;
+	float ___latestConf;
+	String_t* ___latestGeminiText;
+	bool ___geminiDirty;
+	int32_t ___latestEegConfused;
+	bool ___geminiResponseJustArrived;
+	bool ___waitingForGemini;
+	bool ___helpRequestPending;
+	String_t* ___pendingSignId;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___recvThread;
+	RuntimeObject* ___sendLock;
+	float ___nextSendTime;
+	float ___nextGeminiTime;
+};
+struct SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* ___signSprites;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___signNames;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___referenceImage;
+	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___signNameText;
+	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___progressText;
+	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___statusText;
+	LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* ___cameraStreamer;
+	float ___confusionSecondsThreshold;
+	float ___minConfidence;
+	int32_t ___windowSize;
+	float ___requiredAccuracy;
+	int32_t ___minSamplesToEvaluate;
+	float ___successHoldSeconds;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___rewardModels;
+	List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* ___lessons;
+	int32_t ___currentLessonIndex;
+	Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* ___recentCorrect;
+	int32_t ___correctCount;
+	bool ___lessonCompleted;
+	float ___lessonCompleteTime;
+	float ___confusedTimer;
+	bool ___helpTriggeredThisLesson;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___serverIp;
+	int32_t ___serverPort;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___captureCamera;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___captureRT;
+	float ___sendInterval;
+	int32_t ___jpgQuality;
+	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___labelText;
+	bool ___logDebug;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* ___client;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ___stream;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___captureTex;
+	bool ___connected;
+	bool ___running;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___recvThread;
+	String_t* ___latestLabel;
+	float ___latestConf;
+};
+struct VRLabelDisplay_t6416F30B60D517056FEA6F0E156B885CBD990D4D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* ___streamer;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___labelText;
+};
+struct WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___rawImage;
+	AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* ___fitter;
+	WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* ___webCamTexture;
+};
+struct YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___serverIp;
+	int32_t ___serverPort;
+	WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* ___webcamView;
+	float ___captureInterval;
+	int32_t ___captureWidth;
+	int32_t ___captureHeight;
+	int32_t ___jpgQuality;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___labelText;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* ___client;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* ___stream;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___captureTex;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___captureRT;
+	String_t* ___latestLabel;
+	float ___latestConfidence;
+	bool ___running;
+};
+struct AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	int32_t ___m_AspectMode;
+	float ___m_AspectRatio;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Rect;
+	bool ___m_DelayedSetDirty;
+	bool ___m_DoesParentExist;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___m_SecondaryTextures;
+};
+struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___m_Texture;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_UVRect;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	String_t* ___m_text;
+	bool ___m_IsTextBackingStringDirty;
+	RuntimeObject* ___m_TextPreprocessor;
+	bool ___m_isRightToLeft;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_fontAsset;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_currentFontAsset;
+	bool ___m_isSDFShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_sharedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_currentMaterial;
+	int32_t ___m_currentMaterialIndex;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontSharedMaterials;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_fontMaterial;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontMaterials;
+	bool ___m_isMaterialDirty;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_fontColor32;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_fontColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_HighlightState;
+	bool ___m_ConvertToLinearSpace;
+	bool ___m_enableVertexGradient;
+	int32_t ___m_colorMode;
+	VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F ___m_fontColorGradient;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_fontColorGradientPreset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_spriteAsset;
+	bool ___m_tintAllSprites;
+	bool ___m_tintSprite;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_spriteColor;
+	TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859* ___m_StyleSheet;
+	TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C* ___m_TextStyle;
+	int32_t ___m_TextStyleHashCode;
+	bool ___m_overrideHtmlColors;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_faceColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_outlineColor;
+	float ___m_outlineWidth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_currentEnvMapRotation;
+	bool ___m_hasEnvMapProperty;
+	float ___m_fontSize;
+	float ___m_currentFontSize;
+	float ___m_fontSizeBase;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_sizeStack;
+	int32_t ___m_fontWeight;
+	int32_t ___m_FontWeightInternal;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___m_FontWeightStack;
+	bool ___m_enableAutoSizing;
+	float ___m_maxFontSize;
+	float ___m_minFontSize;
+	int32_t ___m_AutoSizeIterationCount;
+	int32_t ___m_AutoSizeMaxIterationCount;
+	bool ___m_IsAutoSizePointSizeSet;
+	float ___m_fontSizeMin;
+	float ___m_fontSizeMax;
+	int32_t ___m_fontStyle;
+	int32_t ___m_FontStyleInternal;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___m_fontStyleStack;
+	bool ___m_isUsingBold;
+	int32_t ___m_HorizontalAlignment;
+	int32_t ___m_VerticalAlignment;
+	int32_t ___m_textAlignment;
+	int32_t ___m_lineJustification;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___m_lineJustificationStack;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_textContainerLocalCorners;
+	float ___m_characterSpacing;
+	float ___m_cSpacing;
+	float ___m_monoSpacing;
+	bool ___m_duoSpace;
+	float ___m_wordSpacing;
+	float ___m_lineSpacing;
+	float ___m_lineSpacingDelta;
+	float ___m_lineHeight;
+	bool ___m_IsDrivenLineSpacing;
+	float ___m_lineSpacingMax;
+	float ___m_paragraphSpacing;
+	float ___m_charWidthMaxAdj;
+	float ___m_charWidthAdjDelta;
+	int32_t ___m_TextWrappingMode;
+	bool ___m_isCharacterWrappingEnabled;
+	bool ___m_isNonBreakingSpace;
+	bool ___m_isIgnoringAlignment;
+	float ___m_wordWrappingRatios;
+	int32_t ___m_overflowMode;
+	int32_t ___m_firstOverflowCharacterIndex;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_linkedTextComponent;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___parentLinkedComponent;
+	bool ___m_isTextTruncated;
+	bool ___m_enableKerning;
+	int32_t ___m_LastBaseGlyphIndex;
+	List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* ___m_ActiveFontFeatures;
+	bool ___m_enableExtraPadding;
+	bool ___checkPaddingRequired;
+	bool ___m_isRichText;
+	bool ___m_EmojiFallbackSupport;
+	bool ___m_parseCtrlCharacters;
+	bool ___m_isOverlay;
+	bool ___m_isOrthographic;
+	bool ___m_isCullingEnabled;
+	bool ___m_isMaskingEnabled;
+	bool ___isMaskUpdateRequired;
+	bool ___m_ignoreCulling;
+	int32_t ___m_horizontalMapping;
+	int32_t ___m_verticalMapping;
+	float ___m_uvLineOffset;
+	int32_t ___m_renderMode;
+	int32_t ___m_geometrySortingOrder;
+	bool ___m_IsTextObjectScaleStatic;
+	bool ___m_VertexBufferAutoSizeReduction;
+	int32_t ___m_firstVisibleCharacter;
+	int32_t ___m_maxVisibleCharacters;
+	int32_t ___m_maxVisibleWords;
+	int32_t ___m_maxVisibleLines;
+	bool ___m_useMaxVisibleDescender;
+	int32_t ___m_pageToDisplay;
+	bool ___m_isNewPage;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_margin;
+	float ___m_marginLeft;
+	float ___m_marginRight;
+	float ___m_marginWidth;
+	float ___m_marginHeight;
+	float ___m_width;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___m_textInfo;
+	bool ___m_havePropertiesChanged;
+	bool ___m_isUsingLegacyAnimationComponent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_transform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_rectTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousRectTransformSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousPivotPosition;
+	bool ___U3CautoSizeTextContainerU3Ek__BackingField;
+	bool ___m_autoSizeTextContainer;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_mesh;
+	bool ___m_isVolumetricText;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* ___m_spriteAnimator;
+	float ___m_flexibleHeight;
+	float ___m_flexibleWidth;
+	float ___m_minWidth;
+	float ___m_minHeight;
+	float ___m_maxWidth;
+	float ___m_maxHeight;
+	LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___m_LayoutElement;
+	float ___m_preferredWidth;
+	float ___m_RenderedWidth;
+	bool ___m_isPreferredWidthDirty;
+	float ___m_preferredHeight;
+	float ___m_RenderedHeight;
+	bool ___m_isPreferredHeightDirty;
+	bool ___m_isCalculatingPreferredValues;
+	int32_t ___m_layoutPriority;
+	bool ___m_isLayoutDirty;
+	bool ___m_isAwake;
+	bool ___m_isWaitingOnResourceLoad;
+	int32_t ___m_inputSource;
+	float ___m_fontScaleMultiplier;
+	float ___tag_LineIndent;
+	float ___tag_Indent;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_indentStack;
+	bool ___tag_NoParsing;
+	bool ___m_isTextLayoutPhase;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_FXRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FXScale;
+	TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* ___m_TextProcessingArray;
+	int32_t ___m_InternalTextProcessingArraySize;
+	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___m_internalCharacterInfo;
+	int32_t ___m_totalCharacterCount;
+	int32_t ___m_characterCount;
+	int32_t ___m_firstCharacterOfLine;
+	int32_t ___m_firstVisibleCharacterOfLine;
+	int32_t ___m_lastCharacterOfLine;
+	int32_t ___m_lastVisibleCharacterOfLine;
+	int32_t ___m_lineNumber;
+	int32_t ___m_lineVisibleCharacterCount;
+	int32_t ___m_lineVisibleSpaceCount;
+	int32_t ___m_pageNumber;
+	float ___m_PageAscender;
+	float ___m_maxTextAscender;
+	float ___m_maxCapHeight;
+	float ___m_ElementAscender;
+	float ___m_ElementDescender;
+	float ___m_maxLineAscender;
+	float ___m_maxLineDescender;
+	float ___m_startOfLineAscender;
+	float ___m_startOfLineDescender;
+	float ___m_lineOffset;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___m_meshExtents;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_htmlColor;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_strikethroughColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___m_HighlightStateStack;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_colorGradientPreset;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___m_colorGradientStack;
+	bool ___m_colorGradientPresetIsTinted;
+	float ___m_tabSpacing;
+	float ___m_spacing;
+	TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___m_TextStyleStacks;
+	int32_t ___m_TextStyleStackDepth;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_ItalicAngleStack;
+	int32_t ___m_ItalicAngle;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_actionStack;
+	float ___m_padding;
+	float ___m_baselineOffset;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_baselineOffsetStack;
+	float ___m_xAdvance;
+	int32_t ___m_textElementType;
+	TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* ___m_cached_TextElement;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Ellipsis;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Underline;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_defaultSpriteAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_currentSpriteAsset;
+	int32_t ___m_spriteCount;
+	int32_t ___m_spriteIndex;
+	int32_t ___m_spriteAnimationID;
+	bool ___m_ignoreActiveState;
+	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
+	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
+};
+struct TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E  : public TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9
+{
+	int32_t ____SortingLayer;
+	int32_t ____SortingLayerID;
+	int32_t ____SortingOrder;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	bool ___m_hasFontAssetChanged;
+	float ___m_previousLossyScaleY;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___m_renderer;
+	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ___m_meshFilter;
+	bool ___m_isFirstAllocation;
+	int32_t ___m_max_characters;
+	int32_t ___m_max_numberOfLines;
+	TMP_SubMeshU5BU5D_t48FE70F8537594C6446E85588EB5D69635194CB9* ___m_subTextObjects;
+	int32_t ___m_maskType;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_EnvMapMatrix;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_RectTransformCorners;
+	bool ___m_isRegisteredForEvents;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___materialIndexPairs;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_StaticFields
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA_StaticFields
+{
+	SignLessonU5BU5D_t318A469D6B10CB81F4D322459746AF6B122BAEF3* ___s_emptyArray;
+};
+struct List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206_StaticFields
+{
+	SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___s_emptyArray;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D298_tE78FA0657835BA99E37E8D5E4093C6E888D9097A ___254C0D9336D9385F54E649235992D539B01E4A1F57F46269D41611752BA9EC92;
+	__StaticArrayInitTypeSizeU3D496_tF8B160814AABA93D02E3A796AE0AFCF1E5268DC3 ___ACC521CAF26150601958C03D2A0458AF6A4987F5580CBAA1E162A9310A167490;
+};
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
+{
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info;
+	RuntimeObject* ___shared_table_lock;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture;
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number;
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX;
+	bool ___IsTaiwanSku;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding;
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings;
+	RuntimeObject* ___s_InternalSyncObject;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null;
+};
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_StaticFields
+{
+	LocalDataStoreMgr_t205F1783D5CC2B148E829B5882E5406FF9A3AC1E* ___s_LocalDataStoreMgr;
+	AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD* ___s_asyncLocalCurrentCulture;
+	AsyncLocal_1_t1D3339EA4C8650D2DEDDF9553E5C932B3DC2CCFD* ___s_asyncLocalCurrentUICulture;
+};
+struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_ThreadStaticFields
+{
+	LocalDataStoreHolder_t789DD474AE5141213C2105CE57830ECFC2D3C03F* ___s_LocalDataStore;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___m_CurrentCulture;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___m_CurrentUICulture;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* ___current_thread;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___s_TempNewSecondaryTextures;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___m_materialReferences;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___m_materialReferenceIndexLookup;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___m_materialReferenceStack;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___s_colorWhite;
+	Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C* ___OnFontAssetRequest;
+	Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5* ___OnSpriteAssetRequest;
+	MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6* ___OnMissingCharacter;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_htmlTag;
+	RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___m_xmlAttribute;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_attributeParameterValues;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedWordWrapState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLineState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedEllipsisState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLastValidState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedSoftLineBreakState;
+	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___m_EllipsisInsertionCandidateStack;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InsertNewLineMarker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargePositiveVector2;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargeNegativeVector2;
+	float ___k_LargePositiveFloat;
+	float ___k_LargeNegativeFloat;
+	int32_t ___k_LargePositiveInt;
+	int32_t ___k_LargeNegativeInt;
+};
+struct TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SetArraySizesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseMarkupTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CharacterLookupMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleGPOSFeaturesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CalculateVerticesPositionMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeTextMetricsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVisibleCharacterMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleWhiteSpacesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleHorizontalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVerticalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveGlyphVertexDataMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeCharacterAdvanceMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleCarriageReturnMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleLineTerminationMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SavePageInfoMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveTextExtentMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveProcessingStatesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIIMarker;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5  : public RuntimeArray
+{
+	ALIGN_FIELD (8) WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C m_Items[1];
+
+	inline WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Name), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_DepthCameraName), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Resolutions), (void*)NULL);
+		#endif
+	}
+	inline WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Name), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_DepthCameraName), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___m_Resolutions), (void*)NULL);
+		#endif
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723_gshared (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16_gshared (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, bool ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13_gshared (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_gshared_inline (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B_gshared (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_textureFormat, bool ___3_mipChain, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugSaveCapture_SaveOne_mBAF86CD39D4B68F2008C05805F3FE75F860ED841 (DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_ReadPixels_m6B45DF7C051BF599C72ED09691F21A6C769EEBD9 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_source, int32_t ___1_destX, int32_t ___2_destY, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_dataPath_m4C8412CBEE4EAAAB6711CC9BEFFA73CEE5BDBEF7 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077 (String_t* ___0_path, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpClient__ctor_m709FAC4D5B9DDB279F9B97D90D3164B92E1F2C87 (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpClient_Connect_mED87D733E342BEAF8DCB947F612FD25C505753BB (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, String_t* ___0_hostname, int32_t ___1_port, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71 (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2 (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* __this, ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* ___0_start, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30 (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Remove_m0D93692674D1C09795C7D6542420A3B6C5F81E90 (StringBuilder_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EegConfusionClient_ParseLine_m7866384E6E61E2332D11822293A25CAD92F7044F (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, String_t* ___0_line, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966 (String_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TcpClient_get_Connected_mAE5B631778361C28C783E417C09F87BA102787B5 (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21 (String_t* ___0_s, int32_t* ___1_result, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89 (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Thread_get_IsAlive_m87922B882A526D780570799F497EEB4C99F005DF (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Thread_Abort_mB956BACF405EFC38C6A3D0B93142E4CEDD64D941 (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TcpClient__ctor_m51F653BB31E296E37086AD7FDC8F34F2F827B57D (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* __this, String_t* ___0_hostname, int32_t ___1_port, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_ASCII_mCC61B512D320FD4E2E71CC0DFDF8DDF3CD215C65 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LLMVRCameraStreamer_StartDelayedCapture_m05F9D0809B8D5D69EDB1A1BD5D9CF262E8D7EEF5 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDelayedCaptureU3Ed__28__ctor_m9D12A00D39217C2CC412E70F90327A2DFFD65963 (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_SendFrame_m3131B6F981D333169B5DAE777889B15051A91466 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, uint8_t ___0_modeFlag, String_t* ___1_signId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_tex, int32_t ___1_quality, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358 (RuntimeArray* ___0_src, int32_t ___1_srcOffset, RuntimeArray* ___2_dst, int32_t ___3_dstOffset, int32_t ___4_count, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BitConverter_ToString_m5F1B0DD98D477249671A51379388B4A09B35B420 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___0_obj, bool* ___1_lockTaken, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_ParseServerJson_m13F9D383DE5475AE46318B008B92A995FFBB3493 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, String_t* ___0_line, const RuntimeMethod* method) ;
+inline ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* JsonUtility_FromJson_TisServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387_mEDABE9FCE39BB874C09C6A27CE1AC5BEB89F46A6 (String_t* ___0_json, const RuntimeMethod* method)
+{
+	return ((  ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared)(___0_json, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_BuildLessonsFromLists_m24FE8810F6634F109ACB23437DAEDE4B1C1E4D4F (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_inline (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_HideAllRewards_m4BC604C90B33E47D29A3CA50341FFF4468A4CC62 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_LoadCurrentLesson_m81DF9329E8AFB0640CDA6DE16A7F8883AD78F49F (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) ;
+inline void List_1_Clear_m3C0B4D9DD354780175A87A53ACCE9851FCBE518D_inline (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_inline (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* List_1_get_Item_m9F1FC9C6704A2B80B7E5AD5B3A8C88FAF4D55354 (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* (*) (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLesson__ctor_m08519A6CDD0C320340A65118278AE5554B3E3C68 (SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_m9E974088BCE17C56CB680C44BAE09EE72EE6833D_inline (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* __this, SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA*, SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5 (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* (*) (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_ResetWindow_m90C01B38A659C2F571047C778BBA54AB39F03BC4 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) ;
+inline void Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723 (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77*, const RuntimeMethod*))Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_UpdateProgressText_m136E1BB2FADF093D32EB49E971E838BC91E314A9 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LLMVRCameraStreamer_GetLatestEegConfused_m4BD876D1E2805F7294D4E073E867E18889D433ED (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LLMVRCameraStreamer_GetLatestLabel_m46BADB6AC990329C37B648691EB742F73B33BFF8 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LLMVRCameraStreamer_GetLatestConfidence_m335D66F3BD0584FC7ED10E3B03214BD3953D7D3C (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) ;
+inline void Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16 (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, bool ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77*, bool, const RuntimeMethod*))Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16_gshared)(__this, ___0_item, method);
+}
+inline bool Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13 (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77*, const RuntimeMethod*))Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13_gshared)(__this, method);
+}
+inline int32_t Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_inline (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77*, const RuntimeMethod*))Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_RequestGeminiHelp_mB57C5DA70BD53352BC67B907AA1BD37F5AA7E96B (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, String_t* ___0_signId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_ShowRewardForCurrentLesson_m20E4D27AD32828D087AB6CC7B8BADD34A3E15E3D (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+inline void List_1__ctor_mC8A044C0E3A50C1EA1BF3DF15150A942C3E86DC2 (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_mDB2462F97F47C764CBFEB0A47691775712ECC73A (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77*, const RuntimeMethod*))Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VRCameraStreamer_CaptureLoop_mCD3B90EFF09EFD6614B77A014E45B84D18BC71F9 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__17__ctor_mB9AB2FAE3AD4F8287B4CD0D2E72F9CCB10775E2E (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IPAddress_HostToNetworkOrder_m0C8F9D771C3E1703B72816AD472DBF6F075C4C6C (int32_t ___0_host, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9 (int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_ParsePrediction_m5BC137DC7866F2606BBB75F5506D628E70B4C7B2 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, String_t* ___0_line, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4 (String_t* __this, Il2CppChar ___0_separator, int32_t ___1_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_TryParse_mFB8CC32F0016FBB6EFCB97953CF3515767EB6431 (String_t* ___0_s, int32_t ___1_style, RuntimeObject* ___2_provider, float* ___3_result, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_SendFrame_m116CD2B6A44D6A361307969D5C34A5AECAF59F47 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VRCameraStreamer_GetLatestLabel_mAB68C945EAEB7AE951877910F1FB564DA40D3B4A (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VRCameraStreamer_GetLatestConfidence_mD61736DE20731C3D126A1661F9F6669FD296FC4C (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) ;
+inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5* WebCamTexture_get_devices_m57A8D669542CBDDB56B21C8DB62D703B7215EBFA (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebCamDevice_get_name_m2BF75E8EA486668299906EAC9B35214890D4601E (WebCamDevice_t3D72A89B7F52FD27192023A67254D19E89D9738C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebCamTexture__ctor_mAF6018FD8752F8527E23C6A800A314C87322D1DD (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* __this, String_t* ___0_deviceName, int32_t ___1_requestedWidth, int32_t ___2_requestedHeight, int32_t ___3_requestedFPS, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02 (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTexture_m389E048BA9C81B603EBF36BD792212B296317AC0 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebCamTexture_Play_mAB313C6F98D5433C414DA31DD96316BDE8D19A26 (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebCamTexture_get_isPlaying_mE53901F249CD5FFF9D1C31DDCC2FC331DCEA80CF (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AspectRatioFitter_set_aspectRatio_m4192E203648BE0ACA39D9C0540C982331CEA91D9 (AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture__ctor_m53215A8EDDE262932758186108347685F6A512C4 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_depth, int32_t ___3_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* YoloSignClientPC_CaptureLoop_m831170A3DFB85BB3C6A4283B04A64D6ABCB17C81 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__16__ctor_m647A9920A8B0BD716ED1F5DA26331AC55BE38653 (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_source, RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___1_dest, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_ParsePrediction_m66277B8E0778C13B06D4D14F3EC94926F90DDE48 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, String_t* ___0_line, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderTexture_Release_mE7399D6187A0E38945D2913D0FFB41247143AB1E (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* WebcamView_GetWebCamTexture_mCC95C6D76E410B953793CB75F3B2CAEEBD393339_inline (WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebCamTexture_get_didUpdateThisFrame_m3672350773BAA9131D648B886DFD4E3351F045BE (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_SendFrame_mE54845B0CC3BE95070DB5561D8C23D6F6325102D (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* ___0_camTex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119023
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugSaveCapture_Start_m10900DCC7837B956F4281BDBB1846EA15CEF01D4 (DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC79852150AB75DBFC40B085836BB6E8436FC2F0B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:13>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___captureRT;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___captureCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:15>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC79852150AB75DBFC40B085836BB6E8436FC2F0B, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:16>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:17>
+		return;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:20>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = __this->___captureRT;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_4);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = __this->___captureRT;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_6);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_8, L_5, L_7, 3, (bool)0, NULL);
+		__this->___tex = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___tex), (void*)L_8);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 119024
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugSaveCapture_Update_mCB1079152554D4F41932351E26946CECD5A661D5 (DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:25>
+		bool L_0;
+		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)112), NULL);
+		if (!L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:27>
+		DebugSaveCapture_SaveOne_mBAF86CD39D4B68F2008C05805F3FE75F860ED841(__this, NULL);
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 119025
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugSaveCapture_SaveOne_mBAF86CD39D4B68F2008C05805F3FE75F860ED841 (DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral631F1D8220345CFCA9AC94A55B2BF6BEBCEBF848);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7383F2137A229EE6901B401D8F932FEE829AAAA8);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:33>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0;
+		L_0 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:34>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = __this->___captureRT;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_1, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:36>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = __this->___tex;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = __this->___captureRT;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_3);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = __this->___captureRT;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_5);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_7), (0.0f), (0.0f), ((float)L_4), ((float)L_6), NULL);
+		NullCheck(L_2);
+		Texture2D_ReadPixels_m6B45DF7C051BF599C72ED09691F21A6C769EEBD9(L_2, L_7, 0, 0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:37>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___tex;
+		NullCheck(L_8);
+		Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_8, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:39>
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:41>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = __this->___tex;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10;
+		L_10 = ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945(L_9, NULL);
+		V_0 = L_10;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:42>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_11;
+		L_11 = Application_get_dataPath_m4C8412CBEE4EAAAB6711CC9BEFFA73CEE5BDBEF7(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_12;
+		L_12 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_11, _stringLiteral7383F2137A229EE6901B401D8F932FEE829AAAA8, NULL);
+		V_1 = L_12;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:43>
+		String_t* L_13 = V_1;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_0;
+		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_13, L_14, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:45>
+		String_t* L_15 = V_1;
+		String_t* L_16;
+		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral631F1D8220345CFCA9AC94A55B2BF6BEBCEBF848, L_15, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_16, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/DebugSaveCapture.cs:46>
+		return;
+	}
+}
+// Method Definition Index: 119026
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugSaveCapture__ctor_m81DD1E6BB36142B42176844BBA45EE76F9CF1847 (DebugSaveCapture_tFF88570E23FF37D037120D6E08BE079CDF822462* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119027
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EegConfusionClient_Start_m724126C7C270D5F4324C4569ADDC26AF3E6B9F51 (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EegConfusionClient_ReceiveLoop_m9B40A05AE611497CBCF81B84E25838109A34B806_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral630518F52FA033EC3430FCAACB91188BE6BBD892);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Exception_t* G_B5_0 = NULL;
+	String_t* G_B5_1 = NULL;
+	Exception_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	String_t* G_B6_0 = NULL;
+	String_t* G_B6_1 = NULL;
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:24>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_0 = (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58*)il2cpp_codegen_object_new(TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+			TcpClient__ctor_m709FAC4D5B9DDB279F9B97D90D3164B92E1F2C87(L_0, NULL);
+			__this->___client = L_0;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___client), (void*)L_0);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:25>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_1 = __this->___client;
+			String_t* L_2 = __this->___serverIp;
+			int32_t L_3 = __this->___serverPort;
+			NullCheck(L_1);
+			TcpClient_Connect_mED87D733E342BEAF8DCB947F612FD25C505753BB(L_1, L_2, L_3, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:26>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_4 = __this->___client;
+			NullCheck(L_4);
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_5;
+			L_5 = TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA(L_4, NULL);
+			__this->___stream = L_5;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___stream), (void*)L_5);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:28>
+			bool L_6 = __this->___logDebug;
+			if (!L_6)
+			{
+				goto IL_005b_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:29>
+			String_t* L_7 = __this->___serverIp;
+			int32_t L_8 = __this->___serverPort;
+			int32_t L_9 = L_8;
+			RuntimeObject* L_10 = Box(il2cpp_defaults.int32_class, &L_9);
+			String_t* L_11;
+			L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral630518F52FA033EC3430FCAACB91188BE6BBD892, L_7, L_10, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
+		}
+
+IL_005b_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:31>
+			ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_12 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+			ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_12, __this, (intptr_t)((void*)EegConfusionClient_ReceiveLoop_m9B40A05AE611497CBCF81B84E25838109A34B806_RuntimeMethod_var), NULL);
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_13 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+			Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_13, L_12, NULL);
+			__this->___recvThread = L_13;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___recvThread), (void*)L_13);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:32>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_14 = __this->___recvThread;
+			NullCheck(L_14);
+			Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_14, (bool)1, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:33>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_15 = __this->___recvThread;
+			NullCheck(L_15);
+			Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_15, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:34>
+			goto IL_00b1;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_008b;
+		}
+		throw e;
+	}
+
+CATCH_008b:
+	{
+		{
+			Exception_t* L_16 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:35>
+			V_0 = L_16;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:37>
+			Exception_t* L_17 = V_0;
+			Exception_t* L_18 = L_17;
+			if (L_18)
+			{
+				G_B5_0 = L_18;
+				G_B5_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF59305BD24B853B50B135E0D58984D2EB9DB5D0B));
+				goto IL_0099;
+			}
+			G_B4_0 = L_18;
+			G_B4_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF59305BD24B853B50B135E0D58984D2EB9DB5D0B));
+		}
+		{
+			G_B6_0 = ((String_t*)(NULL));
+			G_B6_1 = G_B4_1;
+			goto IL_009e;
+		}
+
+IL_0099:
+		{
+			NullCheck(G_B5_0);
+			String_t* L_19;
+			L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B5_0);
+			G_B6_0 = L_19;
+			G_B6_1 = G_B5_1;
+		}
+
+IL_009e:
+		{
+			String_t* L_20;
+			L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B6_1, G_B6_0, NULL);
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_20, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:38>
+			Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:39>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_00b1;
+		}
+	}
+
+IL_00b1:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 119028
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EegConfusionClient_ReceiveLoop_m9B40A05AE611497CBCF81B84E25838109A34B806 (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	StringBuilder_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:44>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
+		V_0 = L_0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:45>
+		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
+		V_1 = L_1;
+	}
+	try
+	{
+		{
+			goto IL_007c_1;
+		}
+
+IL_0013_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:51>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_2 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+			NullCheck(L_4);
+			NullCheck(L_2);
+			int32_t L_5;
+			L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_2, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)));
+			V_2 = L_5;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:52>
+			int32_t L_6 = V_2;
+			if ((((int32_t)L_6) <= ((int32_t)0)))
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:54>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7;
+			L_7 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_0;
+			int32_t L_9 = V_2;
+			NullCheck(L_7);
+			String_t* L_10;
+			L_10 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_7, L_8, 0, L_9);
+			V_3 = L_10;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:55>
+			StringBuilder_t* L_11 = V_1;
+			String_t* L_12 = V_3;
+			NullCheck(L_11);
+			StringBuilder_t* L_13;
+			L_13 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_11, L_12, NULL);
+			goto IL_0069_1;
+		}
+
+IL_0040_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:60>
+			StringBuilder_t* L_14 = V_1;
+			NullCheck(L_14);
+			String_t* L_15;
+			L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_14);
+			int32_t L_16 = V_4;
+			NullCheck(L_15);
+			String_t* L_17;
+			L_17 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_15, 0, L_16, NULL);
+			NullCheck(L_17);
+			String_t* L_18;
+			L_18 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_17, NULL);
+			V_5 = L_18;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:61>
+			StringBuilder_t* L_19 = V_1;
+			int32_t L_20 = V_4;
+			NullCheck(L_19);
+			StringBuilder_t* L_21;
+			L_21 = StringBuilder_Remove_m0D93692674D1C09795C7D6542420A3B6C5F81E90(L_19, 0, ((int32_t)il2cpp_codegen_add(L_20, 1)), NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:62>
+			String_t* L_22 = V_5;
+			EegConfusionClient_ParseLine_m7866384E6E61E2332D11822293A25CAD92F7044F(__this, L_22, NULL);
+		}
+
+IL_0069_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:58>
+			StringBuilder_t* L_23 = V_1;
+			NullCheck(L_23);
+			String_t* L_24;
+			L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+			NullCheck(L_24);
+			int32_t L_25;
+			L_25 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_24, ((int32_t)10), NULL);
+			int32_t L_26 = L_25;
+			V_4 = L_26;
+			if ((((int32_t)L_26) >= ((int32_t)0)))
+			{
+				goto IL_0040_1;
+			}
+		}
+
+IL_007c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:49>
+			bool L_27 = __this->___running;
+			if (!L_27)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_28 = __this->___client;
+			if (!L_28)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_29 = __this->___client;
+			NullCheck(L_29);
+			bool L_30;
+			L_30 = TcpClient_get_Connected_mAE5B631778361C28C783E417C09F87BA102787B5(L_29, NULL);
+			if (L_30)
+			{
+				goto IL_0013_1;
+			}
+		}
+
+IL_009c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:65>
+			goto IL_00c0;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_009e;
+		}
+		throw e;
+	}
+
+CATCH_009e:
+	{
+		{
+			Exception_t* L_31 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:66>
+			V_6 = L_31;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:68>
+			bool L_32 = __this->___logDebug;
+			if (!L_32)
+			{
+				goto IL_00be;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:69>
+			Exception_t* L_33 = V_6;
+			NullCheck(L_33);
+			String_t* L_34;
+			L_34 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_33);
+			String_t* L_35;
+			L_35 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE1A4F5EBEA23BD93FB5675E5BD2FAA0788F7B206)), L_34, NULL);
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_35, NULL);
+		}
+
+IL_00be:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:70>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_00c0;
+		}
+	}
+
+IL_00c0:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 119029
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EegConfusionClient_ParseLine_m7866384E6E61E2332D11822293A25CAD92F7044F (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, String_t* ___0_line, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8170EABDB149E7F082ED5160F467F02C61CB809);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* G_B7_0 = NULL;
+	EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* G_B6_0 = NULL;
+	int32_t G_B8_0 = 0;
+	EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* G_B8_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:75>
+		String_t* L_0 = ___0_line;
+		bool L_1;
+		L_1 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:75>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:77>
+		bool L_2 = __this->___logDebug;
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:77>
+		String_t* L_3 = ___0_line;
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA8170EABDB149E7F082ED5160F467F02C61CB809, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:79>
+		String_t* L_5 = ___0_line;
+		bool L_6;
+		L_6 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_5, (&V_0), NULL);
+		if (!L_6)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:81>
+		int32_t L_7 = V_0;
+		if ((((int32_t)L_7) == ((int32_t)1)))
+		{
+			G_B7_0 = __this;
+			goto IL_0033;
+		}
+		G_B6_0 = __this;
+	}
+	{
+		G_B8_0 = 0;
+		G_B8_1 = G_B6_0;
+		goto IL_0034;
+	}
+
+IL_0033:
+	{
+		G_B8_0 = 1;
+		G_B8_1 = G_B7_0;
+	}
+
+IL_0034:
+	{
+		NullCheck(G_B8_1);
+		il2cpp_codegen_memory_barrier();
+		G_B8_1->___latestPred = G_B8_0;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:83>
+		return;
+	}
+}
+// Method Definition Index: 119030
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool EegConfusionClient_IsConfused_mE42CAB21C0F3539060FEB4E076C7CB9BC6D8F487 (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:87>
+		int32_t L_0 = __this->___latestPred;
+		il2cpp_codegen_memory_barrier();
+		return (bool)((((int32_t)L_0) == ((int32_t)1))? 1 : 0);
+	}
+}
+// Method Definition Index: 119031
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EegConfusionClient_OnDestroy_mB3E0EB1B1B25C42C0FB03DA110E0D9755C4EFFD4 (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, const RuntimeMethod* method) 
+{
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B3_0 = NULL;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B2_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B6_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:92>
+		__this->___running = (bool)0;
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:95>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_0 = __this->___stream;
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_1 = L_0;
+			if (L_1)
+			{
+				G_B3_0 = L_1;
+				goto IL_0013_1;
+			}
+			G_B2_0 = L_1;
+		}
+		{
+			goto IL_0018_1;
+		}
+
+IL_0013_1:
+		{
+			NullCheck(G_B3_0);
+			VirtualActionInvoker0::Invoke(19, G_B3_0);
+		}
+
+IL_0018_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:96>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_2 = __this->___client;
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_3 = L_2;
+			if (L_3)
+			{
+				G_B6_0 = L_3;
+				goto IL_0024_1;
+			}
+			G_B5_0 = L_3;
+		}
+		{
+			goto IL_0029_1;
+		}
+
+IL_0024_1:
+		{
+			NullCheck(G_B6_0);
+			TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(G_B6_0, NULL);
+		}
+
+IL_0029_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:97>
+			goto IL_002e;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (il2cpp_defaults.object_class, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_002b;
+		}
+		throw e;
+	}
+
+CATCH_002b:
+	{
+		RuntimeObject* L_4 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:98>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:98>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:102>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_5 = __this->___recvThread;
+			if (!L_5)
+			{
+				goto IL_004f_1;
+			}
+		}
+		{
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_6 = __this->___recvThread;
+			NullCheck(L_6);
+			bool L_7;
+			L_7 = Thread_get_IsAlive_m87922B882A526D780570799F497EEB4C99F005DF(L_6, NULL);
+			if (!L_7)
+			{
+				goto IL_004f_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:104>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_8 = __this->___recvThread;
+			NullCheck(L_8);
+			Thread_Abort_mB956BACF405EFC38C6A3D0B93142E4CEDD64D941(L_8, NULL);
+		}
+
+IL_004f_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:106>
+			goto IL_0054;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (il2cpp_defaults.object_class, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0051;
+		}
+		throw e;
+	}
+
+CATCH_0051:
+	{
+		RuntimeObject* L_9 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:107>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:107>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:108>
+		return;
+	}
+}
+// Method Definition Index: 119032
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EegConfusionClient__ctor_m67FD41B186AF9B57CA70D04F8BD9A54D3C46B5A3 (EegConfusionClient_t129B8C4C1E7DB7AD82A8857C0987A2EA427814AC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:10>
+		__this->___serverIp = _stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___serverIp), (void*)_stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:11>
+		__this->___serverPort = ((int32_t)5005);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:12>
+		__this->___logDebug = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGConfusionManager.cs:18>
+		__this->___running = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119033
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EEGReceiver_Start_m9D0FD60F1937BE6A0B15DA59CEAD5D4CF6EED892 (EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EEGReceiver_ReceiveData_m035B6C8B40443E959E6DE62AD52B0ADCB9B0ED0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:21>
+		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_0 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_0, __this, (intptr_t)((void*)EEGReceiver_ReceiveData_m035B6C8B40443E959E6DE62AD52B0ADCB9B0ED0F_RuntimeMethod_var), NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_1 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_1, L_0, NULL);
+		__this->___receiveThread = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___receiveThread), (void*)L_1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:22>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_2 = __this->___receiveThread;
+		NullCheck(L_2);
+		Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_2, (bool)1, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:23>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_3 = __this->___receiveThread;
+		NullCheck(L_3);
+		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_3, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 119034
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EEGReceiver_ReceiveData_m035B6C8B40443E959E6DE62AD52B0ADCB9B0ED0F (EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:30>
+			String_t* L_0 = __this->___serverIP;
+			int32_t L_1 = __this->___serverPort;
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_2 = (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58*)il2cpp_codegen_object_new(TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+			TcpClient__ctor_m51F653BB31E296E37086AD7FDC8F34F2F827B57D(L_2, L_0, L_1, NULL);
+			__this->___client = L_2;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___client), (void*)L_2);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:31>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_3 = __this->___client;
+			NullCheck(L_3);
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_4;
+			L_4 = TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA(L_3, NULL);
+			__this->___stream = L_4;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___stream), (void*)L_4);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:32>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1024));
+			V_0 = L_5;
+		}
+
+IL_0033_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:36>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_6 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_0;
+			NullCheck(L_8);
+			NullCheck(L_6);
+			int32_t L_9;
+			L_9 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_6, L_7, 0, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
+			V_1 = L_9;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:37>
+			int32_t L_10 = V_1;
+			if ((((int32_t)L_10) <= ((int32_t)0)))
+			{
+				goto IL_0033_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:39>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_11;
+			L_11 = Encoding_get_ASCII_mCC61B512D320FD4E2E71CC0DFDF8DDF3CD215C65(NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_0;
+			int32_t L_13 = V_1;
+			NullCheck(L_11);
+			String_t* L_14;
+			L_14 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_11, L_12, 0, L_13);
+			NullCheck(L_14);
+			String_t* L_15;
+			L_15 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_14, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:42>
+			bool L_16;
+			L_16 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_15, (&V_2), NULL);
+			if (!L_16)
+			{
+				goto IL_0033_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:44>
+			int32_t L_17 = V_2;
+			__this->___latestPrediction = L_17;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:34>
+			goto IL_0033_1;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_006c;
+		}
+		throw e;
+	}
+
+CATCH_006c:
+	{
+		Exception_t* L_18 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:48>
+		V_3 = L_18;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:50>
+		Exception_t* L_19 = V_3;
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_19);
+		String_t* L_21;
+		L_21 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC76A51D9C38F8BFDBFAA3427D2A47E749FE3105A)), L_20, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_21, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:51>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0084;
+	}
+
+IL_0084:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 119035
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EEGReceiver_OnApplicationQuit_mE5F9F47616455E4BCBEB5C12D1651B76940CE798 (EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* __this, const RuntimeMethod* method) 
+{
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* G_B2_0 = NULL;
+	Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* G_B1_0 = NULL;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B5_0 = NULL;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B4_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B8_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B7_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:56>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_0 = __this->___receiveThread;
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000c;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		goto IL_0011;
+	}
+
+IL_000c:
+	{
+		NullCheck(G_B2_0);
+		Thread_Abort_mB956BACF405EFC38C6A3D0B93142E4CEDD64D941(G_B2_0, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:57>
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_2 = __this->___stream;
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_3 = L_2;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_001d;
+		}
+		G_B4_0 = L_3;
+	}
+	{
+		goto IL_0022;
+	}
+
+IL_001d:
+	{
+		NullCheck(G_B5_0);
+		VirtualActionInvoker0::Invoke(19, G_B5_0);
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:58>
+		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_4 = __this->___client;
+		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_5 = L_4;
+		if (L_5)
+		{
+			G_B8_0 = L_5;
+			goto IL_002d;
+		}
+		G_B7_0 = L_5;
+	}
+	{
+		return;
+	}
+
+IL_002d:
+	{
+		NullCheck(G_B8_0);
+		TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(G_B8_0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 119036
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EEGReceiver__ctor_m763370A8D28D8AAA44FFE20E4B1B9B4F38FB2368 (EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:9>
+		__this->___serverIP = _stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___serverIP), (void*)_stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/EEGReciever.cs:10>
+		__this->___serverPort = ((int32_t)5005);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119037
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerResponse__ctor_m7355D671F879FD91A69B61656F6DB11E3C735401 (ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119038
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_Start_mF55EB7F2C0C2F9F993653F80D2334EA6261AD9E2 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LLMVRCameraStreamer_ReceiveLoop_m794BEA9E2ECF05D0FFC5F2F9FE9388474A0DEAE7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27EF701CFF88697340EA47FD2A853D9EC1BE3DD4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C1AABD5822631DC8C39AE38F072C47BA2E1E013);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8CE2B5F1AE99AB2062CA1B8A43B7AEF51096A6DE);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Exception_t* G_B10_0 = NULL;
+	String_t* G_B10_1 = NULL;
+	Exception_t* G_B9_0 = NULL;
+	String_t* G_B9_1 = NULL;
+	String_t* G_B11_0 = NULL;
+	String_t* G_B11_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:101>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___captureCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:103>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral27EF701CFF88697340EA47FD2A853D9EC1BE3DD4, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:104>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:105>
+		return;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:108>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = __this->___captureRT;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:110>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8CE2B5F1AE99AB2062CA1B8A43B7AEF51096A6DE, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:111>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:112>
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:115>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = __this->___captureRT;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_4);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = __this->___captureRT;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_6);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_8, L_5, L_7, 3, (bool)0, NULL);
+		__this->___captureTex = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___captureTex), (void*)L_8);
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:119>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_9 = (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58*)il2cpp_codegen_object_new(TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+			TcpClient__ctor_m709FAC4D5B9DDB279F9B97D90D3164B92E1F2C87(L_9, NULL);
+			__this->___client = L_9;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___client), (void*)L_9);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:120>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_10 = __this->___client;
+			String_t* L_11 = __this->___serverIp;
+			int32_t L_12 = __this->___serverPort;
+			NullCheck(L_10);
+			TcpClient_Connect_mED87D733E342BEAF8DCB947F612FD25C505753BB(L_10, L_11, L_12, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:121>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_13 = __this->___client;
+			NullCheck(L_13);
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_14;
+			L_14 = TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA(L_13, NULL);
+			__this->___stream = L_14;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___stream), (void*)L_14);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:122>
+			__this->___connected = (bool)1;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:123>
+			bool L_15 = __this->___logDebug;
+			if (!L_15)
+			{
+				goto IL_00c5_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:123>
+			String_t* L_16 = __this->___serverIp;
+			int32_t L_17 = __this->___serverPort;
+			int32_t L_18 = L_17;
+			RuntimeObject* L_19 = Box(il2cpp_defaults.int32_class, &L_18);
+			String_t* L_20;
+			L_20 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4C1AABD5822631DC8C39AE38F072C47BA2E1E013, L_16, L_19, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
+		}
+
+IL_00c5_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:125>
+			ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_21 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+			ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_21, __this, (intptr_t)((void*)LLMVRCameraStreamer_ReceiveLoop_m794BEA9E2ECF05D0FFC5F2F9FE9388474A0DEAE7_RuntimeMethod_var), NULL);
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_22 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+			Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_22, L_21, NULL);
+			__this->___recvThread = L_22;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___recvThread), (void*)L_22);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:126>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_23 = __this->___recvThread;
+			NullCheck(L_23);
+			Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_23, (bool)1, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:127>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_24 = __this->___recvThread;
+			NullCheck(L_24);
+			Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_24, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:129>
+			float L_25;
+			L_25 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+			float L_26 = __this->___sendInterval;
+			__this->___nextSendTime = ((float)il2cpp_codegen_add(L_25, L_26));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:130>
+			float L_27;
+			L_27 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+			__this->___nextGeminiTime = L_27;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:132>
+			RuntimeObject* L_28;
+			L_28 = LLMVRCameraStreamer_StartDelayedCapture_m05F9D0809B8D5D69EDB1A1BD5D9CF262E8D7EEF5(__this, NULL);
+			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_29;
+			L_29 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_28, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:133>
+			goto IL_013e;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_011f;
+		}
+		throw e;
+	}
+
+CATCH_011f:
+	{
+		{
+			Exception_t* L_30 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:134>
+			V_0 = L_30;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:136>
+			Exception_t* L_31 = V_0;
+			Exception_t* L_32 = L_31;
+			if (L_32)
+			{
+				G_B10_0 = L_32;
+				G_B10_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC9633EF206FE6186AE1B2CFD44FDD560DCF6CD04));
+				goto IL_012d;
+			}
+			G_B9_0 = L_32;
+			G_B9_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC9633EF206FE6186AE1B2CFD44FDD560DCF6CD04));
+		}
+		{
+			G_B11_0 = ((String_t*)(NULL));
+			G_B11_1 = G_B9_1;
+			goto IL_0132;
+		}
+
+IL_012d:
+		{
+			NullCheck(G_B10_0);
+			String_t* L_33;
+			L_33 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B10_0);
+			G_B11_0 = L_33;
+			G_B11_1 = G_B10_1;
+		}
+
+IL_0132:
+		{
+			String_t* L_34;
+			L_34 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B11_1, G_B11_0, NULL);
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_34, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:137>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_013e;
+		}
+	}
+
+IL_013e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:138>
+		return;
+	}
+}
+// Method Definition Index: 119039
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LLMVRCameraStreamer_StartDelayedCapture_m05F9D0809B8D5D69EDB1A1BD5D9CF262E8D7EEF5 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* L_0 = (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B*)il2cpp_codegen_object_new(U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B_il2cpp_TypeInfo_var);
+		U3CStartDelayedCaptureU3Ed__28__ctor_m9D12A00D39217C2CC412E70F90327A2DFFD65963(L_0, 0, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 119040
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_Update_mDF8933570A319D5DA68302E06F999293AF5A4244 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBDA26812216CBB36F89521AB027882B666A45E6F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF4C2FEE51B877474C0269DE70C6E7A3EBA56BD49);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	uint8_t V_3 = 0x0;
+	int32_t G_B22_0 = 0;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:148>
+		bool L_0 = __this->___running;
+		if (!L_0)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		bool L_1 = __this->___connected;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_2 = __this->___stream;
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_3 = __this->___stream;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = VirtualFuncInvoker0< bool >::Invoke(10, L_3);
+		if (L_4)
+		{
+			goto IL_0026;
+		}
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:148>
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:150>
+		float L_5;
+		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		V_0 = L_5;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:153>
+		bool L_6 = __this->___geminiDirty;
+		il2cpp_codegen_memory_barrier();
+		if (!L_6)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:155>
+		il2cpp_codegen_memory_barrier();
+		__this->___geminiDirty = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:156>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_7 = __this->___geminiTextUI;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:158>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_9 = __this->___geminiTextUI;
+		String_t* L_10 = __this->___latestGeminiText;
+		il2cpp_codegen_memory_barrier();
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_10);
+	}
+
+IL_0060:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:161>
+		bool L_11 = __this->___logDebug;
+		if (!L_11)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		String_t* L_12 = __this->___latestGeminiText;
+		il2cpp_codegen_memory_barrier();
+		bool L_13;
+		L_13 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_12, NULL);
+		if (L_13)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:163>
+		String_t* L_14 = __this->___latestGeminiText;
+		il2cpp_codegen_memory_barrier();
+		String_t* L_15;
+		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF4C2FEE51B877474C0269DE70C6E7A3EBA56BD49, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
+	}
+
+IL_008e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:168>
+		bool L_16 = __this->___geminiResponseJustArrived;
+		il2cpp_codegen_memory_barrier();
+		if (!L_16)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:170>
+		il2cpp_codegen_memory_barrier();
+		__this->___geminiResponseJustArrived = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:171>
+		float L_17 = V_0;
+		float L_18 = __this->___geminiInterval;
+		__this->___nextGeminiTime = ((float)il2cpp_codegen_add(L_17, L_18));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:172>
+		bool L_19 = __this->___logDebug;
+		if (!L_19)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:174>
+		float L_20 = __this->___geminiInterval;
+		float L_21 = L_20;
+		RuntimeObject* L_22 = Box(il2cpp_defaults.single_class, &L_21);
+		String_t* L_23;
+		L_23 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralBDA26812216CBB36F89521AB027882B666A45E6F, L_22, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_23, NULL);
+	}
+
+IL_00d1:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:179>
+		float L_24 = V_0;
+		float L_25 = __this->___nextSendTime;
+		if ((!(((float)L_24) >= ((float)L_25))))
+		{
+			goto IL_0135;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:181>
+		V_1 = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:182>
+		V_2 = (String_t*)NULL;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:185>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:186>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:187>
+		bool L_26 = __this->___waitingForGemini;
+		il2cpp_codegen_memory_barrier();
+		if (L_26)
+		{
+			goto IL_0116;
+		}
+	}
+	{
+		bool L_27 = __this->___helpRequestPending;
+		il2cpp_codegen_memory_barrier();
+		if (!L_27)
+		{
+			goto IL_0116;
+		}
+	}
+	{
+		float L_28 = V_0;
+		float L_29 = __this->___nextGeminiTime;
+		if ((!(((float)L_28) >= ((float)L_29))))
+		{
+			goto IL_0116;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:189>
+		V_1 = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:190>
+		String_t* L_30 = __this->___pendingSignId;
+		V_2 = L_30;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:191>
+		il2cpp_codegen_memory_barrier();
+		__this->___waitingForGemini = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:192>
+		il2cpp_codegen_memory_barrier();
+		__this->___helpRequestPending = (bool)0;
+	}
+
+IL_0116:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:195>
+		bool L_31 = V_1;
+		if (L_31)
+		{
+			goto IL_011c;
+		}
+	}
+	{
+		G_B22_0 = 0;
+		goto IL_011d;
+	}
+
+IL_011c:
+	{
+		G_B22_0 = 1;
+	}
+
+IL_011d:
+	{
+		V_3 = (uint8_t)((int32_t)(uint8_t)G_B22_0);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:196>
+		uint8_t L_32 = V_3;
+		String_t* L_33 = V_2;
+		LLMVRCameraStreamer_SendFrame_m3131B6F981D333169B5DAE777889B15051A91466(__this, L_32, L_33, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:198>
+		float L_34 = V_0;
+		float L_35 = __this->___sendInterval;
+		__this->___nextSendTime = ((float)il2cpp_codegen_add(L_34, L_35));
+	}
+
+IL_0135:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:200>
+		return;
+	}
+}
+// Method Definition Index: 119041
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_RequestGeminiHelp_mB57C5DA70BD53352BC67B907AA1BD37F5AA7E96B (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, String_t* ___0_signId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFD85EE06DBEBE3F379A6E568C99B4788F084BEC);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B4_0 = NULL;
+	LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* G_B4_1 = NULL;
+	String_t* G_B3_0 = NULL;
+	LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* G_B3_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:208>
+		bool L_0 = __this->___connected;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:208>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:210>
+		String_t* L_1 = ___0_signId;
+		String_t* L_2 = L_1;
+		if (L_2)
+		{
+			G_B4_0 = L_2;
+			G_B4_1 = __this;
+			goto IL_0014;
+		}
+		G_B3_0 = L_2;
+		G_B3_1 = __this;
+	}
+	{
+		G_B4_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0014:
+	{
+		NullCheck(G_B4_1);
+		G_B4_1->___pendingSignId = G_B4_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B4_1->___pendingSignId), (void*)G_B4_0);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:211>
+		il2cpp_codegen_memory_barrier();
+		__this->___helpRequestPending = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:213>
+		bool L_3 = __this->___logDebug;
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:215>
+		String_t* L_4 = __this->___pendingSignId;
+		String_t* L_5;
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFFD85EE06DBEBE3F379A6E568C99B4788F084BEC, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:217>
+		return;
+	}
+}
+// Method Definition Index: 119042
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_SendFrame_m3131B6F981D333169B5DAE777889B15051A91466 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, uint8_t ___0_modeFlag, String_t* ___1_signId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16E59EAB15DC8C0AC8CF3AC28E394C6216B83FA8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral18FBC9C90A2D9B21A47E2F8D99AC8E751FB007FA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5206A59AE44BA11C998DEE1231D2411561032A5B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8FFB2D2FB57EBD26F528E7B2307AFFD8AC5FB42);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD65D5414D3CB0BB17A413AF1C1BEBA6483BEA2E5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
+	int32_t V_2 = 0;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_3 = NULL;
+	String_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	RuntimeObject* V_6 = NULL;
+	bool V_7 = false;
+	Exception_t* V_8 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B2_0 = NULL;
+	String_t* G_B8_0 = NULL;
+	String_t* G_B7_0 = NULL;
+	String_t* G_B9_0 = NULL;
+	String_t* G_B9_1 = NULL;
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:223>
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0;
+			L_0 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:224>
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = __this->___captureRT;
+			RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_1, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:226>
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = __this->___captureTex;
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = __this->___captureRT;
+			NullCheck(L_3);
+			int32_t L_4;
+			L_4 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_3);
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = __this->___captureRT;
+			NullCheck(L_5);
+			int32_t L_6;
+			L_6 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_5);
+			Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
+			memset((&L_7), 0, sizeof(L_7));
+			Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_7), (0.0f), (0.0f), ((float)L_4), ((float)L_6), NULL);
+			NullCheck(L_2);
+			Texture2D_ReadPixels_m6B45DF7C051BF599C72ED09691F21A6C769EEBD9(L_2, L_7, 0, 0, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:227>
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___captureTex;
+			NullCheck(L_8);
+			Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_8, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:229>
+			RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:231>
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = __this->___captureTex;
+			int32_t L_10 = __this->___jpgQuality;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
+			L_11 = ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F(L_9, L_10, NULL);
+			V_0 = L_11;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:235>
+			uint8_t L_12 = ___0_modeFlag;
+			if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+			{
+				goto IL_00c0_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:238>
+			String_t* L_13 = ___1_signId;
+			String_t* L_14 = L_13;
+			if (L_14)
+			{
+				G_B3_0 = L_14;
+				goto IL_0074_1;
+			}
+			G_B2_0 = L_14;
+		}
+		{
+			G_B3_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		}
+
+IL_0074_1:
+		{
+			V_4 = G_B3_0;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:239>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_15;
+			L_15 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			String_t* L_16 = V_4;
+			NullCheck(L_15);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17;
+			L_17 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17, L_15, L_16);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:240>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = L_17;
+			NullCheck(L_18);
+			int32_t L_19;
+			L_19 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)(((RuntimeArray*)L_18)->max_length)), ((int32_t)255), NULL);
+			V_5 = L_19;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:242>
+			int32_t L_20 = V_5;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = V_0;
+			NullCheck(L_21);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(1, L_20)), ((int32_t)(((RuntimeArray*)L_21)->max_length)))));
+			V_1 = L_22;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:243>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = V_1;
+			int32_t L_24 = V_5;
+			NullCheck(L_23);
+			(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)((int32_t)(uint8_t)L_24));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:244>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_25 = V_1;
+			int32_t L_26 = V_5;
+			Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_18, 0, (RuntimeArray*)L_25, 1, L_26, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:245>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_27 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = V_1;
+			int32_t L_29 = V_5;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = V_0;
+			NullCheck(L_30);
+			Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_27, 0, (RuntimeArray*)L_28, ((int32_t)il2cpp_codegen_add(1, L_29)), ((int32_t)(((RuntimeArray*)L_30)->max_length)), NULL);
+			goto IL_00c2_1;
+		}
+
+IL_00c0_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:250>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_31 = V_0;
+			V_1 = L_31;
+		}
+
+IL_00c2_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:253>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = V_1;
+			NullCheck(L_32);
+			V_2 = ((int32_t)(((RuntimeArray*)L_32)->max_length));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:254>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_33 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)5);
+			V_3 = L_33;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:256>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_34 = V_3;
+			uint8_t L_35 = ___0_modeFlag;
+			NullCheck(L_34);
+			(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_35);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:257>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_36 = V_3;
+			int32_t L_37 = V_2;
+			NullCheck(L_36);
+			(L_36)->SetAt(static_cast<il2cpp_array_size_t>(1), (uint8_t)((int32_t)(uint8_t)((int32_t)(((int32_t)(L_37>>((int32_t)24)))&((int32_t)255)))));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:258>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_38 = V_3;
+			int32_t L_39 = V_2;
+			NullCheck(L_38);
+			(L_38)->SetAt(static_cast<il2cpp_array_size_t>(2), (uint8_t)((int32_t)(uint8_t)((int32_t)(((int32_t)(L_39>>((int32_t)16)))&((int32_t)255)))));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:259>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_40 = V_3;
+			int32_t L_41 = V_2;
+			NullCheck(L_40);
+			(L_40)->SetAt(static_cast<il2cpp_array_size_t>(3), (uint8_t)((int32_t)(uint8_t)((int32_t)(((int32_t)(L_41>>8))&((int32_t)255)))));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:260>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_42 = V_3;
+			int32_t L_43 = V_2;
+			NullCheck(L_42);
+			(L_42)->SetAt(static_cast<il2cpp_array_size_t>(4), (uint8_t)((int32_t)(uint8_t)((int32_t)(L_43&((int32_t)255)))));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:262>
+			bool L_44 = __this->___logDebug;
+			if (!L_44)
+			{
+				goto IL_0149_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:264>
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:265>
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:266>
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:267>
+			uint8_t L_45 = ___0_modeFlag;
+			if ((((int32_t)L_45) == ((int32_t)1)))
+			{
+				G_B8_0 = _stringLiteral18FBC9C90A2D9B21A47E2F8D99AC8E751FB007FA;
+				goto IL_011d_1;
+			}
+			G_B7_0 = _stringLiteral18FBC9C90A2D9B21A47E2F8D99AC8E751FB007FA;
+		}
+		{
+			G_B9_0 = _stringLiteralA8FFB2D2FB57EBD26F528E7B2307AFFD8AC5FB42;
+			G_B9_1 = G_B7_0;
+			goto IL_0122_1;
+		}
+
+IL_011d_1:
+		{
+			G_B9_0 = _stringLiteral5206A59AE44BA11C998DEE1231D2411561032A5B;
+			G_B9_1 = G_B8_0;
+		}
+
+IL_0122_1:
+		{
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_46 = V_1;
+			NullCheck(L_46);
+			int32_t L_47 = ((int32_t)(((RuntimeArray*)L_46)->max_length));
+			RuntimeObject* L_48 = Box(il2cpp_defaults.int32_class, &L_47);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_49 = V_3;
+			String_t* L_50;
+			L_50 = BitConverter_ToString_m5F1B0DD98D477249671A51379388B4A09B35B420(L_49, NULL);
+			String_t* L_51;
+			L_51 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD65D5414D3CB0BB17A413AF1C1BEBA6483BEA2E5, L_48, L_50, NULL);
+			String_t* L_52;
+			L_52 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(G_B9_1, G_B9_0, _stringLiteral16E59EAB15DC8C0AC8CF3AC28E394C6216B83FA8, L_51, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_52, NULL);
+		}
+
+IL_0149_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:270>
+			RuntimeObject* L_53 = __this->___sendLock;
+			V_6 = L_53;
+			V_7 = (bool)0;
+		}
+		{
+			auto __finallyBlock = il2cpp::utils::Finally([&]
+			{
+
+FINALLY_017f_1:
+				{
+					{
+						bool L_54 = V_7;
+						if (!L_54)
+						{
+							goto IL_018a_1;
+						}
+					}
+					{
+						RuntimeObject* L_55 = V_6;
+						Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_55, NULL);
+					}
+
+IL_018a_1:
+					{
+						return;
+					}
+				}
+			});
+			try
+			{
+				RuntimeObject* L_56 = V_6;
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_56, (&V_7), NULL);
+				//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:272>
+				NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_57 = __this->___stream;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_58 = V_3;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_59 = V_3;
+				NullCheck(L_59);
+				NullCheck(L_57);
+				VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_57, L_58, 0, ((int32_t)(((RuntimeArray*)L_59)->max_length)));
+				//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:273>
+				NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_60 = __this->___stream;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_61 = V_1;
+				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_62 = V_1;
+				NullCheck(L_62);
+				NullCheck(L_60);
+				VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_60, L_61, 0, ((int32_t)(((RuntimeArray*)L_62)->max_length)));
+				//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:274>
+				goto IL_018b_1;
+			}
+			catch(Il2CppExceptionWrapper& e)
+			{
+				__finallyBlock.StoreException(e.ex);
+			}
+		}
+
+IL_018b_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:275>
+			goto IL_01ae;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_018d;
+		}
+		throw e;
+	}
+
+CATCH_018d:
+	{
+		Exception_t* L_63 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:276>
+		V_8 = L_63;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:278>
+		Exception_t* L_64 = V_8;
+		NullCheck(L_64);
+		String_t* L_65;
+		L_65 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_64);
+		String_t* L_66;
+		L_66 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA2C91966BF5F5B8F6CCE37DE47FDE7AB6FDBC55A)), L_65, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_66, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:279>
+		__this->___connected = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:280>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_01ae;
+	}
+
+IL_01ae:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:281>
+		return;
+	}
+}
+// Method Definition Index: 119043
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_ReceiveLoop_m794BEA9E2ECF05D0FFC5F2F9FE9388474A0DEAE7 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	StringBuilder_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:285>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)4096));
+		V_0 = L_0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:286>
+		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
+		V_1 = L_1;
+	}
+	try
+	{
+		{
+			goto IL_007c_1;
+		}
+
+IL_0013_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:292>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_2 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+			NullCheck(L_4);
+			NullCheck(L_2);
+			int32_t L_5;
+			L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_2, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)));
+			V_2 = L_5;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:293>
+			int32_t L_6 = V_2;
+			if ((((int32_t)L_6) <= ((int32_t)0)))
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:295>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7;
+			L_7 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_0;
+			int32_t L_9 = V_2;
+			NullCheck(L_7);
+			String_t* L_10;
+			L_10 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_7, L_8, 0, L_9);
+			V_3 = L_10;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:296>
+			StringBuilder_t* L_11 = V_1;
+			String_t* L_12 = V_3;
+			NullCheck(L_11);
+			StringBuilder_t* L_13;
+			L_13 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_11, L_12, NULL);
+			goto IL_0069_1;
+		}
+
+IL_0040_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:301>
+			StringBuilder_t* L_14 = V_1;
+			NullCheck(L_14);
+			String_t* L_15;
+			L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_14);
+			int32_t L_16 = V_4;
+			NullCheck(L_15);
+			String_t* L_17;
+			L_17 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_15, 0, L_16, NULL);
+			NullCheck(L_17);
+			String_t* L_18;
+			L_18 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_17, NULL);
+			V_5 = L_18;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:302>
+			StringBuilder_t* L_19 = V_1;
+			int32_t L_20 = V_4;
+			NullCheck(L_19);
+			StringBuilder_t* L_21;
+			L_21 = StringBuilder_Remove_m0D93692674D1C09795C7D6542420A3B6C5F81E90(L_19, 0, ((int32_t)il2cpp_codegen_add(L_20, 1)), NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:303>
+			String_t* L_22 = V_5;
+			LLMVRCameraStreamer_ParseServerJson_m13F9D383DE5475AE46318B008B92A995FFBB3493(__this, L_22, NULL);
+		}
+
+IL_0069_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:299>
+			StringBuilder_t* L_23 = V_1;
+			NullCheck(L_23);
+			String_t* L_24;
+			L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+			NullCheck(L_24);
+			int32_t L_25;
+			L_25 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_24, ((int32_t)10), NULL);
+			int32_t L_26 = L_25;
+			V_4 = L_26;
+			if ((((int32_t)L_26) >= ((int32_t)0)))
+			{
+				goto IL_0040_1;
+			}
+		}
+
+IL_007c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:290>
+			bool L_27 = __this->___running;
+			if (!L_27)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_28 = __this->___client;
+			if (!L_28)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_29 = __this->___client;
+			NullCheck(L_29);
+			bool L_30;
+			L_30 = TcpClient_get_Connected_mAE5B631778361C28C783E417C09F87BA102787B5(L_29, NULL);
+			if (L_30)
+			{
+				goto IL_0013_1;
+			}
+		}
+
+IL_009c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:306>
+			goto IL_00b8;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_009e;
+		}
+		throw e;
+	}
+
+CATCH_009e:
+	{
+		Exception_t* L_31 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:307>
+		V_6 = L_31;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:309>
+		Exception_t* L_32 = V_6;
+		NullCheck(L_32);
+		String_t* L_33;
+		L_33 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_32);
+		String_t* L_34;
+		L_34 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA4103FE9F9D5F60167F401CA9473FA131EC227E1)), L_33, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_34, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:310>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b8;
+	}
+
+IL_00b8:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:312>
+		__this->___connected = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:313>
+		return;
+	}
+}
+// Method Definition Index: 119044
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_ParseServerJson_m13F9D383DE5475AE46318B008B92A995FFBB3493 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, String_t* ___0_line, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387_mEDABE9FCE39BB874C09C6A27CE1AC5BEB89F46A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral124ABC5A7886C644C959B6CB54D65E76DC0B8184);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral310DE9603F9C460CCE538C9ECFD8352FBE539051);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3702A8B5A4C81523F23D449231DA399EEEEC282C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral90014B6EB44E2C6C82D99DEBE61082FDA597EA16);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2);
+		s_Il2CppMethodInitialized = true;
+	}
+	ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* V_0 = NULL;
+	Exception_t* V_1 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	String_t* G_B14_0 = NULL;
+	LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* G_B14_1 = NULL;
+	String_t* G_B13_0 = NULL;
+	LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* G_B13_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:317>
+		String_t* L_0 = ___0_line;
+		bool L_1;
+		L_1 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:317>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:319>
+		bool L_2 = __this->___logDebug;
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:319>
+		String_t* L_3 = ___0_line;
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral310DE9603F9C460CCE538C9ECFD8352FBE539051, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:321>
+		V_0 = (ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387*)NULL;
+	}
+	try
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:324>
+		String_t* L_5 = ___0_line;
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_6;
+		L_6 = JsonUtility_FromJson_TisServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387_mEDABE9FCE39BB874C09C6A27CE1AC5BEB89F46A6(L_5, JsonUtility_FromJson_TisServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387_mEDABE9FCE39BB874C09C6A27CE1AC5BEB89F46A6_RuntimeMethod_var);
+		V_0 = L_6;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:325>
+		goto IL_0047;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_002c;
+		}
+		throw e;
+	}
+
+CATCH_002c:
+	{
+		Exception_t* L_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:326>
+		V_1 = L_7;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:328>
+		Exception_t* L_8 = V_1;
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_8);
+		String_t* L_10;
+		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral58FA3277A72F2538B97F30166EDB61D028C91038)), L_9, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_10, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:329>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_011e;
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:332>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_11 = V_0;
+		if (L_11)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:332>
+		return;
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:335>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_12 = V_0;
+		NullCheck(L_12);
+		String_t* L_13 = L_12->___label;
+		bool L_14;
+		L_14 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:337>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_15 = V_0;
+		NullCheck(L_15);
+		String_t* L_16 = L_15->___label;
+		il2cpp_codegen_memory_barrier();
+		__this->___latestLabel = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestLabel), (void*)L_16);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:338>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_17 = V_0;
+		NullCheck(L_17);
+		float L_18 = L_17->___conf;
+		il2cpp_codegen_memory_barrier();
+		__this->___latestConf = L_18;
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:342>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_19 = V_0;
+		NullCheck(L_19);
+		int32_t L_20 = L_19->___eeg_confused;
+		il2cpp_codegen_memory_barrier();
+		__this->___latestEegConfused = L_20;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:344>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_21 = V_0;
+		NullCheck(L_21);
+		String_t* L_22 = L_21->___mode;
+		bool L_23;
+		L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_22, _stringLiteral124ABC5A7886C644C959B6CB54D65E76DC0B8184, NULL);
+		if (!L_23)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:346>
+		il2cpp_codegen_memory_barrier();
+		__this->___waitingForGemini = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:347>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_24 = V_0;
+		NullCheck(L_24);
+		String_t* L_25 = L_24->___gemini;
+		String_t* L_26 = L_25;
+		if (L_26)
+		{
+			G_B14_0 = L_26;
+			G_B14_1 = __this;
+			goto IL_00ad;
+		}
+		G_B13_0 = L_26;
+		G_B13_1 = __this;
+	}
+	{
+		G_B14_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		G_B14_1 = G_B13_1;
+	}
+
+IL_00ad:
+	{
+		NullCheck(G_B14_1);
+		il2cpp_codegen_memory_barrier();
+		G_B14_1->___latestGeminiText = G_B14_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B14_1->___latestGeminiText), (void*)G_B14_0);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:348>
+		il2cpp_codegen_memory_barrier();
+		__this->___geminiDirty = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:349>
+		il2cpp_codegen_memory_barrier();
+		__this->___geminiResponseJustArrived = (bool)1;
+		return;
+	}
+
+IL_00c7:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:351>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_27 = V_0;
+		NullCheck(L_27);
+		String_t* L_28 = L_27->___mode;
+		bool L_29;
+		L_29 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_28, _stringLiteral3702A8B5A4C81523F23D449231DA399EEEEC282C, NULL);
+		if (L_29)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:355>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_30 = V_0;
+		NullCheck(L_30);
+		String_t* L_31 = L_30->___mode;
+		bool L_32;
+		L_32 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_31, _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2, NULL);
+		if (!L_32)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:357>
+		il2cpp_codegen_memory_barrier();
+		__this->___waitingForGemini = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:358>
+		ServerResponse_t3F1BB2BFF832F090956964D42A7D8AEF567BD387* L_33 = V_0;
+		NullCheck(L_33);
+		String_t* L_34 = L_33->___error;
+		String_t* L_35;
+		L_35 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral90014B6EB44E2C6C82D99DEBE61082FDA597EA16, L_34, NULL);
+		il2cpp_codegen_memory_barrier();
+		__this->___latestGeminiText = L_35;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestGeminiText), (void*)L_35);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:359>
+		il2cpp_codegen_memory_barrier();
+		__this->___geminiDirty = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:360>
+		il2cpp_codegen_memory_barrier();
+		__this->___geminiResponseJustArrived = (bool)1;
+	}
+
+IL_011e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:362>
+		return;
+	}
+}
+// Method Definition Index: 119045
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LLMVRCameraStreamer_GetLatestLabel_m46BADB6AC990329C37B648691EB742F73B33BFF8 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:366>
+		String_t* L_0 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// Method Definition Index: 119046
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LLMVRCameraStreamer_GetLatestConfidence_m335D66F3BD0584FC7ED10E3B03214BD3953D7D3C (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:371>
+		float L_0 = __this->___latestConf;
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// Method Definition Index: 119047
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LLMVRCameraStreamer_GetLatestEegConfused_m4BD876D1E2805F7294D4E073E867E18889D433ED (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:376>
+		int32_t L_0 = __this->___latestEegConfused;
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// Method Definition Index: 119048
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer_OnDestroy_m767B154E022C5812F7944B2FBC071364BF72E04F (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B3_0 = NULL;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B2_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B6_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:381>
+		__this->___running = (bool)0;
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:385>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_0 = __this->___stream;
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_1 = L_0;
+			if (L_1)
+			{
+				G_B3_0 = L_1;
+				goto IL_0013_1;
+			}
+			G_B2_0 = L_1;
+		}
+		{
+			goto IL_0018_1;
+		}
+
+IL_0013_1:
+		{
+			NullCheck(G_B3_0);
+			VirtualActionInvoker0::Invoke(19, G_B3_0);
+		}
+
+IL_0018_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:386>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_2 = __this->___client;
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_3 = L_2;
+			if (L_3)
+			{
+				G_B6_0 = L_3;
+				goto IL_0024_1;
+			}
+			G_B5_0 = L_3;
+		}
+		{
+			goto IL_0029_1;
+		}
+
+IL_0024_1:
+		{
+			NullCheck(G_B6_0);
+			TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(G_B6_0, NULL);
+		}
+
+IL_0029_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:387>
+			goto IL_002e;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (il2cpp_defaults.object_class, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_002b;
+		}
+		throw e;
+	}
+
+CATCH_002b:
+	{
+		RuntimeObject* L_4 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:388>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:388>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:392>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_5 = __this->___recvThread;
+			if (!L_5)
+			{
+				goto IL_004f_1;
+			}
+		}
+		{
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_6 = __this->___recvThread;
+			NullCheck(L_6);
+			bool L_7;
+			L_7 = Thread_get_IsAlive_m87922B882A526D780570799F497EEB4C99F005DF(L_6, NULL);
+			if (!L_7)
+			{
+				goto IL_004f_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:394>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_8 = __this->___recvThread;
+			NullCheck(L_8);
+			Thread_Abort_mB956BACF405EFC38C6A3D0B93142E4CEDD64D941(L_8, NULL);
+		}
+
+IL_004f_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:396>
+			goto IL_0054;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (il2cpp_defaults.object_class, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0051;
+		}
+		throw e;
+	}
+
+CATCH_0051:
+	{
+		RuntimeObject* L_9 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:397>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:397>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:398>
+		return;
+	}
+}
+// Method Definition Index: 119049
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LLMVRCameraStreamer__ctor_m46BCD501B6111F7EE13DF7C90EBDDC8B30279218 (LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:27>
+		__this->___serverIp = _stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___serverIp), (void*)_stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:30>
+		__this->___serverPort = ((int32_t)5000);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:41>
+		__this->___sendInterval = (0.150000006f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:45>
+		__this->___jpgQuality = ((int32_t)70);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:50>
+		__this->___geminiInterval = (15.0f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:58>
+		__this->___logDebug = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:67>
+		__this->___running = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:70>
+		il2cpp_codegen_memory_barrier();
+		__this->___latestLabel = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestLabel), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:74>
+		il2cpp_codegen_memory_barrier();
+		__this->___latestGeminiText = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestGeminiText), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:88>
+		__this->___pendingSignId = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingSignId), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:92>
+		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
+		__this->___sendLock = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sendLock), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119050
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDelayedCaptureU3Ed__28__ctor_m9D12A00D39217C2CC412E70F90327A2DFFD65963 (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 119051
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDelayedCaptureU3Ed__28_System_IDisposable_Dispose_mFAE3F653D117470FEFA4432EBD1F7ACD694093E0 (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 119052
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartDelayedCaptureU3Ed__28_MoveNext_mBED8C4E6AD5EAC5FF465A5E82270D750EB5D8E99 (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:142>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_3);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0030:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/LLMVRCameraStreamer.cs:144>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 119053
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartDelayedCaptureU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8C34411762A9D49D82BFE9040B84B123A65826BF (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 119054
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartDelayedCaptureU3Ed__28_System_Collections_IEnumerator_Reset_mE29AF8424F0760E26DFFE3EC5056DE60A643C1F5 (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CStartDelayedCaptureU3Ed__28_System_Collections_IEnumerator_Reset_mE29AF8424F0760E26DFFE3EC5056DE60A643C1F5_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 119055
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CStartDelayedCaptureU3Ed__28_System_Collections_IEnumerator_get_Current_m4BEADCE41A8A5C0020F78FB73F303BC10303AD49 (U3CStartDelayedCaptureU3Ed__28_t8DFF37BFC2258EB9E73312E4785A07649238F52B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119056
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader_LoadNextScene_mB2947923658B4B9B8ECCC90EC9C98F95DB66ED34 (SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SceneLoader.cs:8>
+		String_t* L_0 = ___0_sceneName;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SceneLoader.cs:9>
+		return;
+	}
+}
+// Method Definition Index: 119057
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29 (SceneLoader_t96010F6DCE0AD6BEB011B72A85110D4801F5CCCF* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119058
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLesson__ctor_m08519A6CDD0C320340A65118278AE5554B3E3C68 (SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119059
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_Awake_mD71EE3F0599D5EDEB2BAB89D66A2C3D3DEB72D75 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:72>
+		SignLessonManager_BuildLessonsFromLists_m24FE8810F6634F109ACB23437DAEDE4B1C1E4D4F(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 119060
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_Start_mEEDBA71BDC4FEBF483086861F7D61A3CAF92BE5B (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5F780983832B24FEE74A3B4ED006D6FFEDE205A7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral95421771C1ADB04CC6263082B88328E11A8C02BA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:77>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_0 = __this->___lessons;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_inline(L_0, List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:79>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral95421771C1ADB04CC6263082B88328E11A8C02BA, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:80>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:81>
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:84>
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_2 = __this->___cameraStreamer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:86>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5F780983832B24FEE74A3B4ED006D6FFEDE205A7, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:87>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:88>
+		return;
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:91>
+		SignLessonManager_HideAllRewards_m4BC604C90B33E47D29A3CA50341FFF4468A4CC62(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:92>
+		SignLessonManager_LoadCurrentLesson_m81DF9329E8AFB0640CDA6DE16A7F8883AD78F49F(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:93>
+		return;
+	}
+}
+// Method Definition Index: 119061
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_BuildLessonsFromLists_m24FE8810F6634F109ACB23437DAEDE4B1C1E4D4F (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m9E974088BCE17C56CB680C44BAE09EE72EE6833D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m3C0B4D9DD354780175A87A53ACCE9851FCBE518D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m9F1FC9C6704A2B80B7E5AD5B3A8C88FAF4D55354_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07AFC5D569F1A74B6E4B8F99AA559D4BE623949E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B9CFC1A4420F6EE6B56FA181A2939D5F372253C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	String_t* V_4 = NULL;
+	SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* V_5 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:97>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_0 = __this->___lessons;
+		NullCheck(L_0);
+		List_1_Clear_m3C0B4D9DD354780175A87A53ACCE9851FCBE518D_inline(L_0, List_1_Clear_m3C0B4D9DD354780175A87A53ACCE9851FCBE518D_RuntimeMethod_var);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:99>
+		List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* L_1 = __this->___signSprites;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_inline(L_1, List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* L_3 = __this->___signSprites;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_inline(L_3, List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_RuntimeMethod_var);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = __this->___signNames;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_5, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		if ((((int32_t)L_4) == ((int32_t)L_6)))
+		{
+			goto IL_003b;
+		}
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:101>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral0B9CFC1A4420F6EE6B56FA181A2939D5F372253C, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:102>
+		return;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:105>
+		V_0 = 0;
+		goto IL_00ac;
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:107>
+		List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* L_7 = __this->___signSprites;
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_9;
+		L_9 = List_1_get_Item_m9F1FC9C6704A2B80B7E5AD5B3A8C88FAF4D55354(L_7, L_8, List_1_get_Item_m9F1FC9C6704A2B80B7E5AD5B3A8C88FAF4D55354_RuntimeMethod_var);
+		V_1 = L_9;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:108>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_10 = __this->___signNames;
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		String_t* L_12;
+		L_12 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_10, L_11, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
+		V_2 = L_12;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:110>
+		String_t* L_13 = V_2;
+		NullCheck(L_13);
+		String_t* L_14;
+		L_14 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_13, NULL);
+		NullCheck(L_14);
+		String_t* L_15;
+		L_15 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_15, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, NULL);
+		V_3 = L_16;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:111>
+		String_t* L_17 = V_3;
+		V_4 = L_17;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:113>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:114>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:115>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:116>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:117>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:118>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:119>
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_18 = (SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A*)il2cpp_codegen_object_new(SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A_il2cpp_TypeInfo_var);
+		SignLesson__ctor_m08519A6CDD0C320340A65118278AE5554B3E3C68(L_18, NULL);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_19 = L_18;
+		String_t* L_20 = V_3;
+		NullCheck(L_19);
+		L_19->___id = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(&L_19->___id), (void*)L_20);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_21 = L_19;
+		String_t* L_22 = V_2;
+		NullCheck(L_21);
+		L_21->___displayName = L_22;
+		Il2CppCodeGenWriteBarrier((void**)(&L_21->___displayName), (void*)L_22);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_23 = L_21;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_24 = V_1;
+		NullCheck(L_23);
+		L_23->___referenceSprite = L_24;
+		Il2CppCodeGenWriteBarrier((void**)(&L_23->___referenceSprite), (void*)L_24);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_25 = L_23;
+		String_t* L_26 = V_4;
+		NullCheck(L_25);
+		L_25->___yoloLabel = L_26;
+		Il2CppCodeGenWriteBarrier((void**)(&L_25->___yoloLabel), (void*)L_26);
+		V_5 = L_25;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:121>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_27 = __this->___lessons;
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_28 = V_5;
+		NullCheck(L_27);
+		List_1_Add_m9E974088BCE17C56CB680C44BAE09EE72EE6833D_inline(L_27, L_28, List_1_Add_m9E974088BCE17C56CB680C44BAE09EE72EE6833D_RuntimeMethod_var);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:105>
+		int32_t L_29 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_00ac:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:105>
+		int32_t L_30 = V_0;
+		List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* L_31 = __this->___signSprites;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_inline(L_31, List_1_get_Count_mF949A7522EA5DF1109EDAD6E4D8454EFDC54B63F_RuntimeMethod_var);
+		if ((((int32_t)L_30) < ((int32_t)L_32)))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:124>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_33 = __this->___lessons;
+		NullCheck(L_33);
+		int32_t L_34;
+		L_34 = List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_inline(L_33, List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		int32_t L_35 = L_34;
+		RuntimeObject* L_36 = Box(il2cpp_defaults.int32_class, &L_35);
+		String_t* L_37;
+		L_37 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral07AFC5D569F1A74B6E4B8F99AA559D4BE623949E, L_36, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_37, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:125>
+		return;
+	}
+}
+// Method Definition Index: 119062
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_LoadCurrentLesson_m81DF9329E8AFB0640CDA6DE16A7F8883AD78F49F (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4181483011D5EFCD09D570BB1DA2C6D117FC51F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB95FBF1DC2934585D741BB32E02EE02C98002CB0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF49E424C6629887E0B511330D4FF4C0D825AABE5);
+		s_Il2CppMethodInitialized = true;
+	}
+	SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* V_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:129>
+		SignLessonManager_HideAllRewards_m4BC604C90B33E47D29A3CA50341FFF4468A4CC62(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:131>
+		int32_t L_0 = __this->___currentLessonIndex;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		int32_t L_1 = __this->___currentLessonIndex;
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_2 = __this->___lessons;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_inline(L_2, List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		if ((((int32_t)L_1) < ((int32_t)L_3)))
+		{
+			goto IL_0097;
+		}
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:133>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_4 = __this->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:134>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_6 = __this->___statusText;
+		NullCheck(L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, _stringLiteralF49E424C6629887E0B511330D4FF4C0D825AABE5);
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:136>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___referenceImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:136>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___referenceImage;
+		NullCheck(L_9);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_9, (bool)0, NULL);
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:137>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_10 = __this->___signNameText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:137>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_12 = __this->___signNameText;
+		NullCheck(L_12);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+	}
+
+IL_0078:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:138>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_13 = __this->___progressText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:138>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_15 = __this->___progressText;
+		NullCheck(L_15);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:139>
+		return;
+	}
+
+IL_0097:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:142>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_16 = __this->___lessons;
+		int32_t L_17 = __this->___currentLessonIndex;
+		NullCheck(L_16);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_18;
+		L_18 = List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5(L_16, L_17, List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5_RuntimeMethod_var);
+		V_0 = L_18;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:144>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_19 = __this->___referenceImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_20)
+		{
+			goto IL_00d4;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:146>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_21 = __this->___referenceImage;
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_22 = V_0;
+		NullCheck(L_22);
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_23 = L_22->___referenceSprite;
+		NullCheck(L_21);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_21, L_23, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:147>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_24 = __this->___referenceImage;
+		NullCheck(L_24);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_24, (bool)1, NULL);
+	}
+
+IL_00d4:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:150>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_25 = __this->___signNameText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:152>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_27 = __this->___signNameText;
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_28 = V_0;
+		NullCheck(L_28);
+		String_t* L_29 = L_28->___displayName;
+		NullCheck(L_27);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_27, L_29);
+	}
+
+IL_00f3:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:155>
+		SignLessonManager_ResetWindow_m90C01B38A659C2F571047C778BBA54AB39F03BC4(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:156>
+		__this->___lessonCompleted = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:157>
+		__this->___lessonCompleteTime = (0.0f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:159>
+		__this->___confusedTimer = (0.0f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:160>
+		__this->___helpTriggeredThisLesson = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:162>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_30 = __this->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_31;
+		L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_31)
+		{
+			goto IL_013b;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:164>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_32 = __this->___statusText;
+		NullCheck(L_32);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_32, _stringLiteralB95FBF1DC2934585D741BB32E02EE02C98002CB0);
+	}
+
+IL_013b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:167>
+		int32_t L_33 = __this->___currentLessonIndex;
+		int32_t L_34 = L_33;
+		RuntimeObject* L_35 = Box(il2cpp_defaults.int32_class, &L_34);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_36 = V_0;
+		NullCheck(L_36);
+		String_t* L_37 = L_36->___displayName;
+		String_t* L_38;
+		L_38 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4181483011D5EFCD09D570BB1DA2C6D117FC51F3, L_35, L_37, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_38, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:168>
+		return;
+	}
+}
+// Method Definition Index: 119063
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_ResetWindow_m90C01B38A659C2F571047C778BBA54AB39F03BC4 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:172>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_0 = __this->___recentCorrect;
+		NullCheck(L_0);
+		Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723(L_0, Queue_1_Clear_m8E837CE2FDA767EF5EBAEC77647D2A031B581723_RuntimeMethod_var);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:173>
+		__this->___correctCount = 0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:174>
+		SignLessonManager_UpdateProgressText_m136E1BB2FADF093D32EB49E971E838BC91E314A9(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:175>
+		return;
+	}
+}
+// Method Definition Index: 119064
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_HideAllRewards_m4BC604C90B33E47D29A3CA50341FFF4468A4CC62 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:179>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___rewardModels;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:179>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:181>
+		V_0 = 0;
+		goto IL_0037;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:183>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = __this->___rewardModels;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_1, L_2, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:185>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_5 = __this->___rewardModels;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_5, L_6, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:181>
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:181>
+		int32_t L_9 = V_0;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_10 = __this->___rewardModels;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_10, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_9) < ((int32_t)L_11)))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:188>
+		return;
+	}
+}
+// Method Definition Index: 119065
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_ShowRewardForCurrentLesson_m20E4D27AD32828D087AB6CC7B8BADD34A3E15E3D (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:192>
+		SignLessonManager_HideAllRewards_m4BC604C90B33E47D29A3CA50341FFF4468A4CC62(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:194>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___rewardModels;
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:194>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:196>
+		int32_t L_1 = __this->___currentLessonIndex;
+		if ((((int32_t)L_1) < ((int32_t)0)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		int32_t L_2 = __this->___currentLessonIndex;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3 = __this->___rewardModels;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_3, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_2) >= ((int32_t)L_4)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:198>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_5 = __this->___rewardModels;
+		int32_t L_6 = __this->___currentLessonIndex;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_5, L_6, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		V_0 = L_7;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:199>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:201>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_0;
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
+	}
+
+IL_004d:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:204>
+		return;
+	}
+}
+// Method Definition Index: 119066
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_Update_m25E368DFE6A1E7B6D3C11C00464543D8F535E391 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral25BCD31D3AA81405EBA434F4119963F248A660B8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral490A649D58C90690DA65BDEC93F89E6149A3CC4E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9A8C9B8F0FF6A41CC4685D718A433F11D0A7A83E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B24672FD95893F2334785B2F35B65C06C48F612);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB937E11991FC86C2894FD20DFA782146E88700A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB24041CFB99CE7A9522A0827F84BB95E3C4B7D4);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	float V_1 = 0.0f;
+	SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* V_2 = NULL;
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	int32_t G_B12_0 = 0;
+	int32_t G_B21_0 = 0;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:208>
+		bool L_0 = __this->___lessonCompleted;
+		if (!L_0)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:210>
+		float L_1;
+		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_2 = __this->___lessonCompleteTime;
+		float L_3 = __this->___successHoldSeconds;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_1, L_2))) >= ((float)L_3))))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:212>
+		int32_t L_4 = __this->___currentLessonIndex;
+		__this->___currentLessonIndex = ((int32_t)il2cpp_codegen_add(L_4, 1));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:213>
+		SignLessonManager_LoadCurrentLesson_m81DF9329E8AFB0640CDA6DE16A7F8883AD78F49F(__this, NULL);
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:215>
+		return;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:218>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_5 = __this->___lessons;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_inline(L_5, List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		if (L_6)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:218>
+		return;
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:219>
+		int32_t L_7 = __this->___currentLessonIndex;
+		if ((((int32_t)L_7) < ((int32_t)0)))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		int32_t L_8 = __this->___currentLessonIndex;
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_9 = __this->___lessons;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_inline(L_9, List_1_get_Count_mCF8B6197FA7B78B2E52433A35F192F7210F653D2_RuntimeMethod_var);
+		if ((((int32_t)L_8) < ((int32_t)L_10)))
+		{
+			goto IL_005c;
+		}
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:219>
+		return;
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:222>
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_11 = __this->___cameraStreamer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_13 = __this->___cameraStreamer;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = LLMVRCameraStreamer_GetLatestEegConfused_m4BD876D1E2805F7294D4E073E867E18889D433ED(L_13, NULL);
+		G_B12_0 = ((((int32_t)L_14) == ((int32_t)1))? 1 : 0);
+		goto IL_007b;
+	}
+
+IL_007a:
+	{
+		G_B12_0 = 0;
+	}
+
+IL_007b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:223>
+		if (!G_B12_0)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:225>
+		float L_15 = __this->___confusedTimer;
+		float L_16;
+		L_16 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___confusedTimer = ((float)il2cpp_codegen_add(L_15, L_16));
+		goto IL_009c;
+	}
+
+IL_0091:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:229>
+		__this->___confusedTimer = (0.0f);
+	}
+
+IL_009c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:232>
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_17 = __this->___cameraStreamer;
+		NullCheck(L_17);
+		String_t* L_18;
+		L_18 = LLMVRCameraStreamer_GetLatestLabel_m46BADB6AC990329C37B648691EB742F73B33BFF8(L_17, NULL);
+		V_0 = L_18;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:233>
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_19 = __this->___cameraStreamer;
+		NullCheck(L_19);
+		float L_20;
+		L_20 = LLMVRCameraStreamer_GetLatestConfidence_m335D66F3BD0584FC7ED10E3B03214BD3953D7D3C(L_19, NULL);
+		V_1 = L_20;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:235>
+		String_t* L_21 = V_0;
+		bool L_22;
+		L_22 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_21, NULL);
+		if (L_22)
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		String_t* L_23 = V_0;
+		bool L_24;
+		L_24 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_23, _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9, NULL);
+		if (!L_24)
+		{
+			goto IL_00ca;
+		}
+	}
+
+IL_00c9:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:236>
+		return;
+	}
+
+IL_00ca:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:238>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_25 = __this->___lessons;
+		int32_t L_26 = __this->___currentLessonIndex;
+		NullCheck(L_25);
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_27;
+		L_27 = List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5(L_25, L_26, List_1_get_Item_m33956A820D3533B47D1DE4138F98ED13BC02E2D5_RuntimeMethod_var);
+		V_2 = L_27;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:240>
+		String_t* L_28 = V_0;
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_29 = V_2;
+		NullCheck(L_29);
+		String_t* L_30 = L_29->___yoloLabel;
+		bool L_31;
+		L_31 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_28, L_30, NULL);
+		if (!L_31)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		float L_32 = V_1;
+		float L_33 = __this->___minConfidence;
+		G_B21_0 = ((((int32_t)((!(((float)L_32) >= ((float)L_33)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00f9;
+	}
+
+IL_00f8:
+	{
+		G_B21_0 = 0;
+	}
+
+IL_00f9:
+	{
+		V_3 = (bool)G_B21_0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:243>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_34 = __this->___recentCorrect;
+		bool L_35 = V_3;
+		NullCheck(L_34);
+		Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16(L_34, L_35, Queue_1_Enqueue_m4B4394C2109BA71882C8F4244F57F8CF2E6D3F16_RuntimeMethod_var);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:244>
+		bool L_36 = V_3;
+		if (!L_36)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:244>
+		int32_t L_37 = __this->___correctCount;
+		__this->___correctCount = ((int32_t)il2cpp_codegen_add(L_37, 1));
+		goto IL_0134;
+	}
+
+IL_0119:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:248>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_38 = __this->___recentCorrect;
+		NullCheck(L_38);
+		bool L_39;
+		L_39 = Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13(L_38, Queue_1_Dequeue_mDA6F2BDCB2102C1FB753BDC3D3305E5882318E13_RuntimeMethod_var);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:249>
+		if (!L_39)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:249>
+		int32_t L_40 = __this->___correctCount;
+		__this->___correctCount = ((int32_t)il2cpp_codegen_subtract(L_40, 1));
+	}
+
+IL_0134:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:246>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_41 = __this->___recentCorrect;
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_inline(L_41, Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_RuntimeMethod_var);
+		int32_t L_43 = __this->___windowSize;
+		if ((((int32_t)L_42) > ((int32_t)L_43)))
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:252>
+		SignLessonManager_UpdateProgressText_m136E1BB2FADF093D32EB49E971E838BC91E314A9(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:255>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:256>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:257>
+		bool L_44 = V_3;
+		if (L_44)
+		{
+			goto IL_01bf;
+		}
+	}
+	{
+		float L_45 = __this->___confusedTimer;
+		float L_46 = __this->___confusionSecondsThreshold;
+		if ((!(((float)L_45) >= ((float)L_46))))
+		{
+			goto IL_01bf;
+		}
+	}
+	{
+		bool L_47 = __this->___helpTriggeredThisLesson;
+		if (L_47)
+		{
+			goto IL_01bf;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:259>
+		__this->___helpTriggeredThisLesson = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:261>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_48 = __this->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_49;
+		L_49 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_48, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_49)
+		{
+			goto IL_018b;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:263>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_50 = __this->___statusText;
+		NullCheck(L_50);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_50, _stringLiteral9B24672FD95893F2334785B2F35B65C06C48F612);
+	}
+
+IL_018b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:266>
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_51 = __this->___cameraStreamer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_52;
+		L_52 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_51, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_52)
+		{
+			goto IL_01aa;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:268>
+		LLMVRCameraStreamer_t334EE72B62AA9669636E4CBFF5C4FB381F40A63D* L_53 = __this->___cameraStreamer;
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_54 = V_2;
+		NullCheck(L_54);
+		String_t* L_55 = L_54->___id;
+		NullCheck(L_53);
+		LLMVRCameraStreamer_RequestGeminiHelp_mB57C5DA70BD53352BC67B907AA1BD37F5AA7E96B(L_53, L_55, NULL);
+	}
+
+IL_01aa:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:271>
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_56 = V_2;
+		NullCheck(L_56);
+		String_t* L_57 = L_56->___id;
+		String_t* L_58;
+		L_58 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9A8C9B8F0FF6A41CC4685D718A433F11D0A7A83E, L_57, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_58, NULL);
+	}
+
+IL_01bf:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:275>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_59 = __this->___recentCorrect;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_inline(L_59, Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_RuntimeMethod_var);
+		V_4 = L_60;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:276>
+		int32_t L_61 = V_4;
+		int32_t L_62 = __this->___minSamplesToEvaluate;
+		if ((((int32_t)L_61) < ((int32_t)L_62)))
+		{
+			goto IL_0268;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:278>
+		int32_t L_63 = __this->___correctCount;
+		int32_t L_64 = V_4;
+		V_5 = ((float)(((float)L_63)/((float)L_64)));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:279>
+		float L_65 = V_5;
+		float L_66 = __this->___requiredAccuracy;
+		if ((!(((float)L_65) >= ((float)L_66))))
+		{
+			goto IL_0268;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:281>
+		__this->___lessonCompleted = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:282>
+		float L_67;
+		L_67 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->___lessonCompleteTime = L_67;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:285>
+		SignLessonManager_ShowRewardForCurrentLesson_m20E4D27AD32828D087AB6CC7B8BADD34A3E15E3D(__this, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:287>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_68 = __this->___statusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_69;
+		L_69 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_68, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_69)
+		{
+			goto IL_0236;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:289>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_70 = __this->___statusText;
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_71 = V_2;
+		NullCheck(L_71);
+		String_t* L_72 = L_71->___displayName;
+		String_t* L_73;
+		L_73 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralCB24041CFB99CE7A9522A0827F84BB95E3C4B7D4, L_72, _stringLiteral25BCD31D3AA81405EBA434F4119963F248A660B8, NULL);
+		NullCheck(L_70);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_70, L_73);
+	}
+
+IL_0236:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:292>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:293>
+		SignLesson_t2BFB7F9B91F4DD682105DD44A133B5530B30000A* L_74 = V_2;
+		NullCheck(L_74);
+		String_t* L_75 = L_74->___displayName;
+		float L_76 = V_5;
+		float L_77 = L_76;
+		RuntimeObject* L_78 = Box(il2cpp_defaults.single_class, &L_77);
+		int32_t L_79 = V_4;
+		int32_t L_80 = L_79;
+		RuntimeObject* L_81 = Box(il2cpp_defaults.int32_class, &L_80);
+		String_t* L_82;
+		L_82 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralAB937E11991FC86C2894FD20DFA782146E88700A, L_78, L_81, NULL);
+		String_t* L_83;
+		L_83 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral490A649D58C90690DA65BDEC93F89E6149A3CC4E, L_75, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_82, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_83, NULL);
+	}
+
+IL_0268:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:296>
+		return;
+	}
+}
+// Method Definition Index: 119067
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager_UpdateProgressText_m136E1BB2FADF093D32EB49E971E838BC91E314A9 (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFE054B824342636EC78C7006036F2A6DCE86F2B6);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	float G_B5_0 = 0.0f;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:300>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_0 = __this->___progressText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:300>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:302>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_2 = __this->___recentCorrect;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_inline(L_2, Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:303>
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) > ((int32_t)0)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		G_B5_0 = (0.0f);
+		goto IL_0030;
+	}
+
+IL_0026:
+	{
+		int32_t L_5 = __this->___correctCount;
+		int32_t L_6 = V_0;
+		G_B5_0 = ((float)(((float)L_5)/((float)L_6)));
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:304>
+		V_1 = ((float)il2cpp_codegen_multiply(G_B5_0, (100.0f)));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:306>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_7 = __this->___progressText;
+		int32_t L_8 = __this->___correctCount;
+		int32_t L_9 = L_8;
+		RuntimeObject* L_10 = Box(il2cpp_defaults.int32_class, &L_9);
+		int32_t L_11 = V_0;
+		int32_t L_12 = L_11;
+		RuntimeObject* L_13 = Box(il2cpp_defaults.int32_class, &L_12);
+		float L_14 = V_1;
+		float L_15 = L_14;
+		RuntimeObject* L_16 = Box(il2cpp_defaults.single_class, &L_15);
+		String_t* L_17;
+		L_17 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralFE054B824342636EC78C7006036F2A6DCE86F2B6, L_10, L_13, L_16, NULL);
+		NullCheck(L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_17);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:307>
+		return;
+	}
+}
+// Method Definition Index: 119068
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignLessonManager__ctor_m2FE0D6A6392AA52DD0F61A3AC460E084009EECBD (SignLessonManager_tF9793BB19B73473457E4F038A3643272EB32BD64* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mC8A044C0E3A50C1EA1BF3DF15150A942C3E86DC2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mDB2462F97F47C764CBFEB0A47691775712ECC73A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:20>
+		List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* L_0 = (List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206*)il2cpp_codegen_object_new(List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206_il2cpp_TypeInfo_var);
+		List_1__ctor_mC8A044C0E3A50C1EA1BF3DF15150A942C3E86DC2(L_0, List_1__ctor_mC8A044C0E3A50C1EA1BF3DF15150A942C3E86DC2_RuntimeMethod_var);
+		__this->___signSprites = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___signSprites), (void*)L_0);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:23>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_1, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		__this->___signNames = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___signNames), (void*)L_1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:36>
+		__this->___confusionSecondsThreshold = (2.5f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:40>
+		__this->___minConfidence = (0.600000024f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:43>
+		__this->___windowSize = ((int32_t)40);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:46>
+		__this->___requiredAccuracy = (0.5f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:49>
+		__this->___minSamplesToEvaluate = ((int32_t)15);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:52>
+		__this->___successHoldSeconds = (5.0f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:56>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_2, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		__this->___rewardModels = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rewardModels), (void*)L_2);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:58>
+		List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA* L_3 = (List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA*)il2cpp_codegen_object_new(List_1_t35918C08BC5907AF176236EB400ACF2986A2E7FA_il2cpp_TypeInfo_var);
+		List_1__ctor_mDB2462F97F47C764CBFEB0A47691775712ECC73A(L_3, List_1__ctor_mDB2462F97F47C764CBFEB0A47691775712ECC73A_RuntimeMethod_var);
+		__this->___lessons = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lessons), (void*)L_3);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/SignLessonManager.cs:61>
+		Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* L_4 = (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77*)il2cpp_codegen_object_new(Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77_il2cpp_TypeInfo_var);
+		Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B(L_4, Queue_1__ctor_mCB419750DB58D5651C2BA3E86EA990CE20C9914B_RuntimeMethod_var);
+		__this->___recentCorrect = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___recentCorrect), (void*)L_4);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119069
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfusionDebugger_Update_m55160910971D333770979B6625508784D4CA9375 (ConfusionDebugger_t9E32ACF76A99320EEBFE2947301803EC03C544FA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral130E8A3DCEE46887C30F275DB6E3DEBE86EB2008);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral364CE8B0603A6FE54B4BE0D679669A3BF874615F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E83B607B3E5C53A12D1377E64950110B7D4189B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:9>
+		EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* L_0 = __this->___receiver;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:11>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral364CE8B0603A6FE54B4BE0D679669A3BF874615F, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:12>
+		return;
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:15>
+		EEGReceiver_t17B66732D2082BFE34BB60B34D60D97678F6A19F* L_2 = __this->___receiver;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->___latestPrediction;
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:16>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral4E83B607B3E5C53A12D1377E64950110B7D4189B, NULL);
+		return;
+	}
+
+IL_0032:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:18>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral130E8A3DCEE46887C30F275DB6E3DEBE86EB2008, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/test.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 119070
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfusionDebugger__ctor_m2E8D3B535CBECC4CD0EA9B825BBEF068DD9E6368 (ConfusionDebugger_t9E32ACF76A99320EEBFE2947301803EC03C544FA* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119071
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_Start_m60582A8AF53660031BDACE142D8B19FAEB722C1F (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VRCameraStreamer_ReceiveLoop_m70E4A2FE6EAAA0098384FE8E5DB74AFF457B17C9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D1C4ECDA72C17A8D0D086170361389D8C0FFDFE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral725FED70D7F0CCCACB1DEE2D448DF292BBE5715D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Exception_t* G_B9_0 = NULL;
+	String_t* G_B9_1 = NULL;
+	Exception_t* G_B8_0 = NULL;
+	String_t* G_B8_1 = NULL;
+	String_t* G_B10_0 = NULL;
+	String_t* G_B10_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:43>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___captureCamera;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = __this->___captureRT;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:45>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral725FED70D7F0CCCACB1DEE2D448DF292BBE5715D, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:46>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:47>
+		return;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:51>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:52>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:53>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:54>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:55>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:56>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = __this->___captureRT;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_4);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = __this->___captureRT;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_6);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_8, L_5, L_7, 3, (bool)0, NULL);
+		__this->___captureTex = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___captureTex), (void*)L_8);
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:60>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_9 = (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58*)il2cpp_codegen_object_new(TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+			TcpClient__ctor_m709FAC4D5B9DDB279F9B97D90D3164B92E1F2C87(L_9, NULL);
+			__this->___client = L_9;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___client), (void*)L_9);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:61>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_10 = __this->___client;
+			String_t* L_11 = __this->___serverIp;
+			int32_t L_12 = __this->___serverPort;
+			NullCheck(L_10);
+			TcpClient_Connect_mED87D733E342BEAF8DCB947F612FD25C505753BB(L_10, L_11, L_12, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:62>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_13 = __this->___client;
+			NullCheck(L_13);
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_14;
+			L_14 = TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA(L_13, NULL);
+			__this->___stream = L_14;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___stream), (void*)L_14);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:63>
+			__this->___connected = (bool)1;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:64>
+			bool L_15 = __this->___logDebug;
+			if (!L_15)
+			{
+				goto IL_00b8_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:65>
+			String_t* L_16 = __this->___serverIp;
+			int32_t* L_17 = (int32_t*)(&__this->___serverPort);
+			String_t* L_18;
+			L_18 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_17, NULL);
+			String_t* L_19;
+			L_19 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral4D1C4ECDA72C17A8D0D086170361389D8C0FFDFE, L_16, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_18, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
+		}
+
+IL_00b8_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:68>
+			ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_20 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+			ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_20, __this, (intptr_t)((void*)VRCameraStreamer_ReceiveLoop_m70E4A2FE6EAAA0098384FE8E5DB74AFF457B17C9_RuntimeMethod_var), NULL);
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_21 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+			Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_21, L_20, NULL);
+			__this->___recvThread = L_21;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___recvThread), (void*)L_21);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:69>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_22 = __this->___recvThread;
+			NullCheck(L_22);
+			Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_22, (bool)1, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:70>
+			Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_23 = __this->___recvThread;
+			NullCheck(L_23);
+			Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_23, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:72>
+			RuntimeObject* L_24;
+			L_24 = VRCameraStreamer_CaptureLoop_mCD3B90EFF09EFD6614B77A014E45B84D18BC71F9(__this, NULL);
+			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_25;
+			L_25 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_24, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:73>
+			goto IL_0114;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00f5;
+		}
+		throw e;
+	}
+
+CATCH_00f5:
+	{
+		{
+			Exception_t* L_26 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:74>
+			V_0 = L_26;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:76>
+			Exception_t* L_27 = V_0;
+			Exception_t* L_28 = L_27;
+			if (L_28)
+			{
+				G_B9_0 = L_28;
+				G_B9_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral80C415E95C33DB2D1C61AAAFFB38799025581810));
+				goto IL_0103;
+			}
+			G_B8_0 = L_28;
+			G_B8_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral80C415E95C33DB2D1C61AAAFFB38799025581810));
+		}
+		{
+			G_B10_0 = ((String_t*)(NULL));
+			G_B10_1 = G_B8_1;
+			goto IL_0108;
+		}
+
+IL_0103:
+		{
+			NullCheck(G_B9_0);
+			String_t* L_29;
+			L_29 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B9_0);
+			G_B10_0 = L_29;
+			G_B10_1 = G_B9_1;
+		}
+
+IL_0108:
+		{
+			String_t* L_30;
+			L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B10_1, G_B10_0, NULL);
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_30, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:77>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0114;
+		}
+	}
+
+IL_0114:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:78>
+		return;
+	}
+}
+// Method Definition Index: 119072
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VRCameraStreamer_CaptureLoop_mCD3B90EFF09EFD6614B77A014E45B84D18BC71F9 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* L_0 = (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0*)il2cpp_codegen_object_new(U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0_il2cpp_TypeInfo_var);
+		U3CCaptureLoopU3Ed__17__ctor_mB9AB2FAE3AD4F8287B4CD0D2E72F9CCB10775E2E(L_0, 0, NULL);
+		U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 119073
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_Update_m70D1FBBE931BC8EEFE699E8BB3F0D9F50DAC4E7E (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD8D5C4CB8E313BC5D37E494A419F8D568CDCDB84);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:99>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_0 = __this->___labelText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:101>
+		String_t* L_2 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		bool L_3;
+		L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		String_t* L_4 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		bool L_5;
+		L_5 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_4, _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9, NULL);
+		if (!L_5)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:104>
+		float L_6 = __this->___latestConf;
+		il2cpp_codegen_memory_barrier();
+		V_0 = ((float)il2cpp_codegen_multiply(L_6, (100.0f)));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:105>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_7 = __this->___labelText;
+		String_t* L_8 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		float L_9 = V_0;
+		float L_10 = L_9;
+		RuntimeObject* L_11 = Box(il2cpp_defaults.single_class, &L_10);
+		String_t* L_12;
+		L_12 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939, L_8, L_11, NULL);
+		NullCheck(L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_12);
+		return;
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:109>
+		TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* L_13 = __this->___labelText;
+		NullCheck(L_13);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteralD8D5C4CB8E313BC5D37E494A419F8D568CDCDB84);
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:112>
+		return;
+	}
+}
+// Method Definition Index: 119074
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_SendFrame_m116CD2B6A44D6A361307969D5C34A5AECAF59F47 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral508A9C4D635B663F0F10003A2D0DD536CBAD2DC3);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
+	Exception_t* V_2 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:118>
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0;
+			L_0 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:119>
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = __this->___captureRT;
+			RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_1, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:121>
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = __this->___captureTex;
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = __this->___captureRT;
+			NullCheck(L_3);
+			int32_t L_4;
+			L_4 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_3);
+			RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = __this->___captureRT;
+			NullCheck(L_5);
+			int32_t L_6;
+			L_6 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_5);
+			Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
+			memset((&L_7), 0, sizeof(L_7));
+			Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_7), (0.0f), (0.0f), ((float)L_4), ((float)L_6), NULL);
+			NullCheck(L_2);
+			Texture2D_ReadPixels_m6B45DF7C051BF599C72ED09691F21A6C769EEBD9(L_2, L_7, 0, 0, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:122>
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___captureTex;
+			NullCheck(L_8);
+			Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_8, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:124>
+			RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_0, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:126>
+			Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = __this->___captureTex;
+			int32_t L_10 = __this->___jpgQuality;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
+			L_11 = ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F(L_9, L_10, NULL);
+			V_0 = L_11;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:129>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_0;
+			NullCheck(L_12);
+			il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
+			int32_t L_13;
+			L_13 = IPAddress_HostToNetworkOrder_m0C8F9D771C3E1703B72816AD472DBF6F075C4C6C(((int32_t)(((RuntimeArray*)L_12)->max_length)), NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
+			L_14 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(L_13, NULL);
+			V_1 = L_14;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:131>
+			bool L_15 = __this->___logDebug;
+			if (!L_15)
+			{
+				goto IL_0099_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:133>
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:134>
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:135>
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = V_0;
+			NullCheck(L_16);
+			int32_t L_17 = ((int32_t)(((RuntimeArray*)L_16)->max_length));
+			RuntimeObject* L_18 = Box(il2cpp_defaults.int32_class, &L_17);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = V_1;
+			String_t* L_20;
+			L_20 = BitConverter_ToString_m5F1B0DD98D477249671A51379388B4A09B35B420(L_19, NULL);
+			String_t* L_21;
+			L_21 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral508A9C4D635B663F0F10003A2D0DD536CBAD2DC3, L_18, L_20, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_21, NULL);
+		}
+
+IL_0099_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:138>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_22 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = V_1;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_24 = V_1;
+			NullCheck(L_24);
+			NullCheck(L_22);
+			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_22, L_23, 0, ((int32_t)(((RuntimeArray*)L_24)->max_length)));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:139>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_25 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_27 = V_0;
+			NullCheck(L_27);
+			NullCheck(L_25);
+			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_25, L_26, 0, ((int32_t)(((RuntimeArray*)L_27)->max_length)));
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:140>
+			goto IL_00da;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00bb;
+		}
+		throw e;
+	}
+
+CATCH_00bb:
+	{
+		Exception_t* L_28 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:141>
+		V_2 = L_28;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:143>
+		Exception_t* L_29 = V_2;
+		NullCheck(L_29);
+		String_t* L_30;
+		L_30 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_29);
+		String_t* L_31;
+		L_31 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1583973FB0B09392117F03837DD5B78D4FD727F6)), L_30, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_31, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:144>
+		__this->___connected = (bool)0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:145>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00da;
+	}
+
+IL_00da:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:146>
+		return;
+	}
+}
+// Method Definition Index: 119075
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_ReceiveLoop_m70E4A2FE6EAAA0098384FE8E5DB74AFF457B17C9 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	StringBuilder_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:150>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1024));
+		V_0 = L_0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:151>
+		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
+		V_1 = L_1;
+	}
+	try
+	{
+		{
+			goto IL_007c_1;
+		}
+
+IL_0013_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:157>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_2 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+			NullCheck(L_4);
+			NullCheck(L_2);
+			int32_t L_5;
+			L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_2, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)));
+			V_2 = L_5;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:158>
+			int32_t L_6 = V_2;
+			if ((((int32_t)L_6) <= ((int32_t)0)))
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:160>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7;
+			L_7 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_0;
+			int32_t L_9 = V_2;
+			NullCheck(L_7);
+			String_t* L_10;
+			L_10 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_7, L_8, 0, L_9);
+			V_3 = L_10;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:161>
+			StringBuilder_t* L_11 = V_1;
+			String_t* L_12 = V_3;
+			NullCheck(L_11);
+			StringBuilder_t* L_13;
+			L_13 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_11, L_12, NULL);
+			goto IL_0069_1;
+		}
+
+IL_0040_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:167>
+			StringBuilder_t* L_14 = V_1;
+			NullCheck(L_14);
+			String_t* L_15;
+			L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_14);
+			int32_t L_16 = V_4;
+			NullCheck(L_15);
+			String_t* L_17;
+			L_17 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_15, 0, L_16, NULL);
+			NullCheck(L_17);
+			String_t* L_18;
+			L_18 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_17, NULL);
+			V_5 = L_18;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:168>
+			StringBuilder_t* L_19 = V_1;
+			int32_t L_20 = V_4;
+			NullCheck(L_19);
+			StringBuilder_t* L_21;
+			L_21 = StringBuilder_Remove_m0D93692674D1C09795C7D6542420A3B6C5F81E90(L_19, 0, ((int32_t)il2cpp_codegen_add(L_20, 1)), NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:169>
+			String_t* L_22 = V_5;
+			VRCameraStreamer_ParsePrediction_m5BC137DC7866F2606BBB75F5506D628E70B4C7B2(__this, L_22, NULL);
+		}
+
+IL_0069_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:165>
+			StringBuilder_t* L_23 = V_1;
+			NullCheck(L_23);
+			String_t* L_24;
+			L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+			NullCheck(L_24);
+			int32_t L_25;
+			L_25 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_24, ((int32_t)10), NULL);
+			int32_t L_26 = L_25;
+			V_4 = L_26;
+			if ((((int32_t)L_26) >= ((int32_t)0)))
+			{
+				goto IL_0040_1;
+			}
+		}
+
+IL_007c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:155>
+			bool L_27 = __this->___running;
+			if (!L_27)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_28 = __this->___client;
+			if (!L_28)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_29 = __this->___client;
+			NullCheck(L_29);
+			bool L_30;
+			L_30 = TcpClient_get_Connected_mAE5B631778361C28C783E417C09F87BA102787B5(L_29, NULL);
+			if (L_30)
+			{
+				goto IL_0013_1;
+			}
+		}
+
+IL_009c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:172>
+			goto IL_00b8;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_009e;
+		}
+		throw e;
+	}
+
+CATCH_009e:
+	{
+		Exception_t* L_31 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:173>
+		V_6 = L_31;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:175>
+		Exception_t* L_32 = V_6;
+		NullCheck(L_32);
+		String_t* L_33;
+		L_33 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_32);
+		String_t* L_34;
+		L_34 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6A0DFD5CB221E36F85A26B51D1EF5005F9CE457A)), L_33, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_34, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:176>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b8;
+	}
+
+IL_00b8:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:177>
+		return;
+	}
+}
+// Method Definition Index: 119076
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_ParsePrediction_m5BC137DC7866F2606BBB75F5506D628E70B4C7B2 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, String_t* ___0_line, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA85A777DF4FECFEA1A2F33301F0CD0847FAFEB9E);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:181>
+		String_t* L_0 = ___0_line;
+		bool L_1;
+		L_1 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:181>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:184>
+		bool L_2 = __this->___logDebug;
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:184>
+		String_t* L_3 = ___0_line;
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA85A777DF4FECFEA1A2F33301F0CD0847FAFEB9E, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:186>
+		String_t* L_5 = ___0_line;
+		NullCheck(L_5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6;
+		L_6 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(L_5, ((int32_t)58), 0, NULL);
+		V_0 = L_6;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:187>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = V_0;
+		NullCheck(L_7);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_7)->max_length))) == ((uint32_t)2))))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:189>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = 0;
+		String_t* L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		il2cpp_codegen_memory_barrier();
+		__this->___latestLabel = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestLabel), (void*)L_10);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:190>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:191>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:192>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:193>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:194>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12 = 1;
+		String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_14;
+		L_14 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		bool L_15;
+		L_15 = Single_TryParse_mFB8CC32F0016FBB6EFCB97953CF3515767EB6431(L_13, ((int32_t)167), L_14, (&V_1), NULL);
+		if (!L_15)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:196>
+		float L_16 = V_1;
+		il2cpp_codegen_memory_barrier();
+		__this->___latestConf = L_16;
+		return;
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:200>
+		il2cpp_codegen_memory_barrier();
+		__this->___latestConf = (0.0f);
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:203>
+		return;
+	}
+}
+// Method Definition Index: 119077
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VRCameraStreamer_GetLatestLabel_mAB68C945EAEB7AE951877910F1FB564DA40D3B4A (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:207>
+		String_t* L_0 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// Method Definition Index: 119078
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VRCameraStreamer_GetLatestConfidence_mD61736DE20731C3D126A1661F9F6669FD296FC4C (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:212>
+		float L_0 = __this->___latestConf;
+		il2cpp_codegen_memory_barrier();
+		return L_0;
+	}
+}
+// Method Definition Index: 119079
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer_OnDestroy_m3DC4C74393CB0D5E17BC1F06977945D7FB4EB6B3 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B3_0 = NULL;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B2_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B6_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:217>
+		__this->___running = (bool)0;
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:220>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_0 = __this->___stream;
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_1 = L_0;
+			if (L_1)
+			{
+				G_B3_0 = L_1;
+				goto IL_0013_1;
+			}
+			G_B2_0 = L_1;
+		}
+		{
+			goto IL_0018_1;
+		}
+
+IL_0013_1:
+		{
+			NullCheck(G_B3_0);
+			VirtualActionInvoker0::Invoke(19, G_B3_0);
+		}
+
+IL_0018_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:221>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_2 = __this->___client;
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_3 = L_2;
+			if (L_3)
+			{
+				G_B6_0 = L_3;
+				goto IL_0024_1;
+			}
+			G_B5_0 = L_3;
+		}
+		{
+			goto IL_0029_1;
+		}
+
+IL_0024_1:
+		{
+			NullCheck(G_B6_0);
+			TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(G_B6_0, NULL);
+		}
+
+IL_0029_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:222>
+			goto IL_002e;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (il2cpp_defaults.object_class, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_002b;
+		}
+		throw e;
+	}
+
+CATCH_002b:
+	{
+		RuntimeObject* L_4 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:223>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:223>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:224>
+		return;
+	}
+}
+// Method Definition Index: 119080
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRCameraStreamer__ctor_mEFF6508BB7B04BE6E5255469B694140A396D0E11 (VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:13>
+		__this->___serverIp = _stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___serverIp), (void*)_stringLiteral8BFE6CF0291F870825642B6D8053FE830925A5D1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:14>
+		__this->___serverPort = ((int32_t)5000);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:19>
+		__this->___sendInterval = (0.150000006f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:21>
+		__this->___jpgQuality = ((int32_t)70);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:28>
+		__this->___logDebug = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:34>
+		__this->___running = (bool)1;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:38>
+		il2cpp_codegen_memory_barrier();
+		__this->___latestLabel = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestLabel), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119081
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__17__ctor_mB9AB2FAE3AD4F8287B4CD0D2E72F9CCB10775E2E (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 119082
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__17_System_IDisposable_Dispose_m9A5E27D3EFA85F4D9E50F6D76E164A032F393E4B (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 119083
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCaptureLoopU3Ed__17_MoveNext_m5DCDDF97C9F4057877A1D646D5125F0144E127D9 (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0042;
+			}
+			case 2:
+			{
+				goto IL_0065;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:83>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_3);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0042:
+	{
+		__this->___U3CU3E1__state = (-1);
+		goto IL_0087;
+	}
+
+IL_004b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:87>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___sendInterval;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_6 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_6, L_5, NULL);
+		__this->___U3CU3E2__current = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_6);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_0065:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:89>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_7 = V_1;
+		NullCheck(L_7);
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_8 = L_7->___stream;
+		if (!L_8)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_9 = V_1;
+		NullCheck(L_9);
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_10 = L_9->___stream;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = VirtualFuncInvoker0< bool >::Invoke(10, L_10);
+		if (!L_11)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:91>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_12 = V_1;
+		NullCheck(L_12);
+		VRCameraStreamer_SendFrame_m116CD2B6A44D6A361307969D5C34A5AECAF59F47(L_12, NULL);
+	}
+
+IL_0087:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:85>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_13 = V_1;
+		NullCheck(L_13);
+		bool L_14 = L_13->___running;
+		if (!L_14)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_15 = V_1;
+		NullCheck(L_15);
+		bool L_16 = L_15->___connected;
+		if (L_16)
+		{
+			goto IL_004b;
+		}
+	}
+
+IL_0097:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRCameraStreamer.cs:94>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 119084
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaptureLoopU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC8CF76ADCF4722DAA4458CD08AF62791E0A7D540 (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 119085
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__17_System_Collections_IEnumerator_Reset_mB3D1DCA0EE756FEA64CB3D23ED4E028D2031E5AB (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCaptureLoopU3Ed__17_System_Collections_IEnumerator_Reset_mB3D1DCA0EE756FEA64CB3D23ED4E028D2031E5AB_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 119086
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaptureLoopU3Ed__17_System_Collections_IEnumerator_get_Current_mFB93B51DF76CA7A4F7D908E90262D4433E6F3E62 (U3CCaptureLoopU3Ed__17_tA62BF5799AB6E965FAA18E11D76C016211A31FE0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119087
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRLabelDisplay_Update_mC612EF1768E93372BB3C30B7C40C49079C99F687 (VRLabelDisplay_t6416F30B60D517056FEA6F0E156B885CBD990D4D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:11>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_0 = __this->___streamer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___labelText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:11>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:13>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_4 = __this->___streamer;
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = VRCameraStreamer_GetLatestLabel_mAB68C945EAEB7AE951877910F1FB564DA40D3B4A(L_4, NULL);
+		V_0 = L_5;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:14>
+		VRCameraStreamer_t980C6D4C0FA332440876BD6AF855B92A19786AC6* L_6 = __this->___streamer;
+		NullCheck(L_6);
+		float L_7;
+		L_7 = VRCameraStreamer_GetLatestConfidence_mD61736DE20731C3D126A1661F9F6669FD296FC4C(L_6, NULL);
+		V_1 = L_7;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:16>
+		String_t* L_8 = V_0;
+		bool L_9;
+		L_9 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_8, NULL);
+		if (L_9)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		String_t* L_10 = V_0;
+		bool L_11;
+		L_11 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_10, _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9, NULL);
+		if (!L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:18>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = __this->___labelText;
+		String_t* L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = ((float)il2cpp_codegen_multiply(L_14, (100.0f)));
+		RuntimeObject* L_16 = Box(il2cpp_defaults.single_class, &L_15);
+		String_t* L_17;
+		L_17 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939, L_13, L_16, NULL);
+		NullCheck(L_12);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, L_17);
+		return;
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:22>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_18 = __this->___labelText;
+		NullCheck(L_18);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_18, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/VRLabelDisplay.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 119088
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRLabelDisplay__ctor_m62DEE46F0273A9EC6A79A2BABC46641AC8ADA7E2 (VRLabelDisplay_t6416F30B60D517056FEA6F0E156B885CBD990D4D* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119089
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebcamView_Start_mA63A277D2563C9F1E6E1D94DE34F2019811467FD (WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral180E5EA33133B51817A4D631DA50E38743BEBE73);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2B4AFA89CE8517C3D724097509C66B839B9D97B2);
+		s_Il2CppMethodInitialized = true;
+	}
+	WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:13>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->___rawImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:14>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2;
+		L_2 = Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D(__this, Component_GetComponent_TisRawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179_m56775E1085C53732A0C2D919F000176C7BC11C3D_RuntimeMethod_var);
+		__this->___rawImage = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rawImage), (void*)L_2);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:17>
+		WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5* L_3;
+		L_3 = WebCamTexture_get_devices_m57A8D669542CBDDB56B21C8DB62D703B7215EBFA(NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:18>
+		WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5* L_4 = V_0;
+		NullCheck(L_4);
+		if ((((RuntimeArray*)L_4)->max_length))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:20>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral2B4AFA89CE8517C3D724097509C66B839B9D97B2, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:21>
+		return;
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:24>
+		WebCamDeviceU5BU5D_tA5B1352BDE6FE233B66C3ABF96E00EB3215629F5* L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = WebCamDevice_get_name_m2BF75E8EA486668299906EAC9B35214890D4601E(((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_1 = L_6;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:25>
+		String_t* L_7 = V_1;
+		String_t* L_8;
+		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral180E5EA33133B51817A4D631DA50E38743BEBE73, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:27>
+		String_t* L_9 = V_1;
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_10 = (WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749*)il2cpp_codegen_object_new(WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749_il2cpp_TypeInfo_var);
+		WebCamTexture__ctor_mAF6018FD8752F8527E23C6A800A314C87322D1DD(L_10, L_9, ((int32_t)640), ((int32_t)480), ((int32_t)30), NULL);
+		__this->___webCamTexture = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___webCamTexture), (void*)L_10);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:28>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_11 = __this->___rawImage;
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_12 = __this->___webCamTexture;
+		NullCheck(L_11);
+		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_11, L_12, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:29>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_13 = __this->___rawImage;
+		NullCheck(L_13);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14;
+		L_14 = VirtualFuncInvoker0< Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* >::Invoke(32, L_13);
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_15 = __this->___webCamTexture;
+		NullCheck(L_14);
+		Material_set_mainTexture_m389E048BA9C81B603EBF36BD792212B296317AC0(L_14, L_15, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:31>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_16 = __this->___webCamTexture;
+		NullCheck(L_16);
+		WebCamTexture_Play_mAB313C6F98D5433C414DA31DD96316BDE8D19A26(L_16, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 119090
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebcamView_Update_m64F272692EB23B7D369099D64260A4FEABDD4548 (WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:36>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_0 = __this->___webCamTexture;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_2 = __this->___webCamTexture;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = WebCamTexture_get_isPlaying_mE53901F249CD5FFF9D1C31DDCC2FC331DCEA80CF(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_001c;
+		}
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:37>
+		return;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:39>
+		AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* L_4 = __this->___fitter;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_6 = __this->___webCamTexture;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_6);
+		if ((((int32_t)L_7) <= ((int32_t)((int32_t)16))))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:41>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_8 = __this->___webCamTexture;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_8);
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_10 = __this->___webCamTexture;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_10);
+		V_0 = ((float)(((float)L_9)/((float)L_11)));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:42>
+		AspectRatioFitter_tEA1004A8240374C9BE7623981F999AA9789CDD09* L_12 = __this->___fitter;
+		float L_13 = V_0;
+		NullCheck(L_12);
+		AspectRatioFitter_set_aspectRatio_m4192E203648BE0ACA39D9C0540C982331CEA91D9(L_12, L_13, NULL);
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 119091
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* WebcamView_GetWebCamTexture_mCC95C6D76E410B953793CB75F3B2CAEEBD393339 (WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:48>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_0 = __this->___webCamTexture;
+		return L_0;
+	}
+}
+// Method Definition Index: 119092
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebcamView__ctor_m5B6DB4F167590F81D207C6EF99A4C8F22700B6D6 (WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119093
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_Start_mDA15558706B795523A5E6575311D63D9C8A9DB61 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&YoloSignClientPC_ReceiveLoop_mD69C147147CF4D8059EF1124415108B17F15A0EF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral635B407FD722C7049E46BE444737C62AE76F3D95);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral81C4F32FB96BD4A007CB83D055888ECEBB503458);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Exception_t* G_B6_0 = NULL;
+	String_t* G_B6_1 = NULL;
+	Exception_t* G_B5_0 = NULL;
+	String_t* G_B5_1 = NULL;
+	String_t* G_B7_0 = NULL;
+	String_t* G_B7_1 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:36>
+		WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* L_0 = __this->___webcamView;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:38>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral81C4F32FB96BD4A007CB83D055888ECEBB503458, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:39>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:40>
+		return;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:43>
+		int32_t L_2 = __this->___captureWidth;
+		int32_t L_3 = __this->___captureHeight;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_4 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_4, L_2, L_3, 3, (bool)0, NULL);
+		__this->___captureTex = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___captureTex), (void*)L_4);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:44>
+		int32_t L_5 = __this->___captureWidth;
+		int32_t L_6 = __this->___captureHeight;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
+		RenderTexture__ctor_m53215A8EDDE262932758186108347685F6A512C4(L_7, L_5, L_6, 0, 0, NULL);
+		__this->___captureRT = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___captureRT), (void*)L_7);
+	}
+	try
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:48>
+		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_8 = (TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58*)il2cpp_codegen_object_new(TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58_il2cpp_TypeInfo_var);
+		TcpClient__ctor_m709FAC4D5B9DDB279F9B97D90D3164B92E1F2C87(L_8, NULL);
+		__this->___client = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___client), (void*)L_8);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:49>
+		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_9 = __this->___client;
+		String_t* L_10 = __this->___serverIp;
+		int32_t L_11 = __this->___serverPort;
+		NullCheck(L_9);
+		TcpClient_Connect_mED87D733E342BEAF8DCB947F612FD25C505753BB(L_9, L_10, L_11, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:50>
+		TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_12 = __this->___client;
+		NullCheck(L_12);
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_13;
+		L_13 = TcpClient_GetStream_mDD54336B17D1267BD593E0A1EB9EDF3E9506AEBA(L_12, NULL);
+		__this->___stream = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___stream), (void*)L_13);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:51>
+		String_t* L_14 = __this->___serverIp;
+		int32_t* L_15 = (int32_t*)(&__this->___serverPort);
+		String_t* L_16;
+		L_16 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_15, NULL);
+		String_t* L_17;
+		L_17 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral635B407FD722C7049E46BE444737C62AE76F3D95, L_14, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_16, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_17, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:53>
+		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_18 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_18, __this, (intptr_t)((void*)YoloSignClientPC_ReceiveLoop_mD69C147147CF4D8059EF1124415108B17F15A0EF_RuntimeMethod_var), NULL);
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_19 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_19, L_18, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:54>
+		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_20 = L_19;
+		NullCheck(L_20);
+		Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_20, (bool)1, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:55>
+		NullCheck(L_20);
+		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_20, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:57>
+		RuntimeObject* L_21;
+		L_21 = YoloSignClientPC_CaptureLoop_m831170A3DFB85BB3C6A4283B04A64D6ABCB17C81(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_22;
+		L_22 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_21, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:58>
+		goto IL_00f5;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00d6;
+		}
+		throw e;
+	}
+
+CATCH_00d6:
+	{
+		{
+			Exception_t* L_23 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:59>
+			V_0 = L_23;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:61>
+			Exception_t* L_24 = V_0;
+			Exception_t* L_25 = L_24;
+			if (L_25)
+			{
+				G_B6_0 = L_25;
+				G_B6_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral988800C640D5A43384B19BB0267F920E81BB50CF));
+				goto IL_00e4;
+			}
+			G_B5_0 = L_25;
+			G_B5_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral988800C640D5A43384B19BB0267F920E81BB50CF));
+		}
+		{
+			G_B7_0 = ((String_t*)(NULL));
+			G_B7_1 = G_B5_1;
+			goto IL_00e9;
+		}
+
+IL_00e4:
+		{
+			NullCheck(G_B6_0);
+			String_t* L_26;
+			L_26 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B6_0);
+			G_B7_0 = L_26;
+			G_B7_1 = G_B6_1;
+		}
+
+IL_00e9:
+		{
+			String_t* L_27;
+			L_27 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B7_1, G_B7_0, NULL);
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_27, NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:62>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_00f5;
+		}
+	}
+
+IL_00f5:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:63>
+		return;
+	}
+}
+// Method Definition Index: 119094
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* YoloSignClientPC_CaptureLoop_m831170A3DFB85BB3C6A4283B04A64D6ABCB17C81 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* L_0 = (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD*)il2cpp_codegen_object_new(U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD_il2cpp_TypeInfo_var);
+		U3CCaptureLoopU3Ed__16__ctor_m647A9920A8B0BD716ED1F5DA26331AC55BE38653(L_0, 0, NULL);
+		U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 119095
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_SendFrame_mE54845B0CC3BE95070DB5561D8C23D6F6325102D (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* ___0_camTex, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
+	Exception_t* V_2 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:95>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_0 = ___0_camTex;
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = __this->___captureRT;
+		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
+		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_0, L_1, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:98>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2;
+		L_2 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:99>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = __this->___captureRT;
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_3, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:101>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_4 = __this->___captureTex;
+		int32_t L_5 = __this->___captureWidth;
+		int32_t L_6 = __this->___captureHeight;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_7), (0.0f), (0.0f), ((float)L_5), ((float)L_6), NULL);
+		NullCheck(L_4);
+		Texture2D_ReadPixels_m6B45DF7C051BF599C72ED09691F21A6C769EEBD9(L_4, L_7, 0, 0, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:102>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = __this->___captureTex;
+		NullCheck(L_8);
+		Texture2D_Apply_mA014182C9EE0BBF6EEE3B286854F29E50EB972DC(L_8, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:104>
+		RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_2, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:106>
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = __this->___captureTex;
+		int32_t L_10 = __this->___jpgQuality;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
+		L_11 = ImageConversion_EncodeToJPG_mD0307B5DFF32A3FF39488E97B467F11AFE501F6F(L_9, L_10, NULL);
+		V_0 = L_11;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:108>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_0;
+		NullCheck(L_12);
+		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
+		int32_t L_13;
+		L_13 = IPAddress_HostToNetworkOrder_m0C8F9D771C3E1703B72816AD472DBF6F075C4C6C(((int32_t)(((RuntimeArray*)L_12)->max_length)), NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
+		L_14 = BitConverter_GetBytes_mCD74C79673617CEBF85F8A653520C860A9F014F9(L_13, NULL);
+		V_1 = L_14;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:109>
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_15 = __this->___stream;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = V_1;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = V_1;
+		NullCheck(L_17);
+		NullCheck(L_15);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_15, L_16, 0, ((int32_t)(((RuntimeArray*)L_17)->max_length)));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:110>
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_18 = __this->___stream;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = V_0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = V_0;
+		NullCheck(L_20);
+		NullCheck(L_18);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_18, L_19, 0, ((int32_t)(((RuntimeArray*)L_20)->max_length)));
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:113>
+		goto IL_00b0;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0098;
+		}
+		throw e;
+	}
+
+CATCH_0098:
+	{
+		Exception_t* L_21 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:114>
+		V_2 = L_21;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:116>
+		Exception_t* L_22 = V_2;
+		NullCheck(L_22);
+		String_t* L_23;
+		L_23 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_22);
+		String_t* L_24;
+		L_24 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral40C9317C6324C1FC9ABA8D6641C5EB8B3E776498)), L_23, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_24, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:117>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b0;
+	}
+
+IL_00b0:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:118>
+		return;
+	}
+}
+// Method Definition Index: 119096
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_ReceiveLoop_mD69C147147CF4D8059EF1124415108B17F15A0EF (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	StringBuilder_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:122>
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1024));
+		V_0 = L_0;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:123>
+		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
+		V_1 = L_1;
+	}
+	try
+	{
+		{
+			goto IL_007c_1;
+		}
+
+IL_0013_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:129>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_2 = __this->___stream;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+			NullCheck(L_4);
+			NullCheck(L_2);
+			int32_t L_5;
+			L_5 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_2, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)));
+			V_2 = L_5;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:130>
+			int32_t L_6 = V_2;
+			if ((((int32_t)L_6) <= ((int32_t)0)))
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:132>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7;
+			L_7 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_0;
+			int32_t L_9 = V_2;
+			NullCheck(L_7);
+			String_t* L_10;
+			L_10 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_7, L_8, 0, L_9);
+			V_3 = L_10;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:133>
+			StringBuilder_t* L_11 = V_1;
+			String_t* L_12 = V_3;
+			NullCheck(L_11);
+			StringBuilder_t* L_13;
+			L_13 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_11, L_12, NULL);
+			goto IL_0069_1;
+		}
+
+IL_0040_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:138>
+			StringBuilder_t* L_14 = V_1;
+			NullCheck(L_14);
+			String_t* L_15;
+			L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_14);
+			int32_t L_16 = V_4;
+			NullCheck(L_15);
+			String_t* L_17;
+			L_17 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_15, 0, L_16, NULL);
+			NullCheck(L_17);
+			String_t* L_18;
+			L_18 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_17, NULL);
+			V_5 = L_18;
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:139>
+			StringBuilder_t* L_19 = V_1;
+			int32_t L_20 = V_4;
+			NullCheck(L_19);
+			StringBuilder_t* L_21;
+			L_21 = StringBuilder_Remove_m0D93692674D1C09795C7D6542420A3B6C5F81E90(L_19, 0, ((int32_t)il2cpp_codegen_add(L_20, 1)), NULL);
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:140>
+			String_t* L_22 = V_5;
+			YoloSignClientPC_ParsePrediction_m66277B8E0778C13B06D4D14F3EC94926F90DDE48(__this, L_22, NULL);
+		}
+
+IL_0069_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:136>
+			StringBuilder_t* L_23 = V_1;
+			NullCheck(L_23);
+			String_t* L_24;
+			L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+			NullCheck(L_24);
+			int32_t L_25;
+			L_25 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_24, ((int32_t)10), NULL);
+			int32_t L_26 = L_25;
+			V_4 = L_26;
+			if ((((int32_t)L_26) >= ((int32_t)0)))
+			{
+				goto IL_0040_1;
+			}
+		}
+
+IL_007c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:127>
+			bool L_27 = __this->___running;
+			if (!L_27)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_28 = __this->___client;
+			if (!L_28)
+			{
+				goto IL_009c_1;
+			}
+		}
+		{
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_29 = __this->___client;
+			NullCheck(L_29);
+			bool L_30;
+			L_30 = TcpClient_get_Connected_mAE5B631778361C28C783E417C09F87BA102787B5(L_29, NULL);
+			if (L_30)
+			{
+				goto IL_0013_1;
+			}
+		}
+
+IL_009c_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:143>
+			goto IL_00b8;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_009e;
+		}
+		throw e;
+	}
+
+CATCH_009e:
+	{
+		Exception_t* L_31 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:144>
+		V_6 = L_31;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:146>
+		Exception_t* L_32 = V_6;
+		NullCheck(L_32);
+		String_t* L_33;
+		L_33 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_32);
+		String_t* L_34;
+		L_34 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7933D6CD56D009A91F2CB5491A982C800424F98C)), L_33, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_34, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:147>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_00b8;
+	}
+
+IL_00b8:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:148>
+		return;
+	}
+}
+// Method Definition Index: 119097
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_ParsePrediction_m66277B8E0778C13B06D4D14F3EC94926F90DDE48 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, String_t* ___0_line, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA85A777DF4FECFEA1A2F33301F0CD0847FAFEB9E);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:152>
+		String_t* L_0 = ___0_line;
+		bool L_1;
+		L_1 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:153>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:155>
+		String_t* L_2 = ___0_line;
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA85A777DF4FECFEA1A2F33301F0CD0847FAFEB9E, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:157>
+		String_t* L_4 = ___0_line;
+		NullCheck(L_4);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5;
+		L_5 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(L_4, ((int32_t)58), 0, NULL);
+		V_0 = L_5;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:158>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = V_0;
+		NullCheck(L_6);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_6)->max_length))) == ((uint32_t)2))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:160>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = V_0;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		il2cpp_codegen_memory_barrier();
+		__this->___latestLabel = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestLabel), (void*)L_9);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:161>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = V_0;
+		NullCheck(L_10);
+		int32_t L_11 = 1;
+		String_t* L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_13;
+		L_13 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		bool L_14;
+		L_14 = Single_TryParse_mFB8CC32F0016FBB6EFCB97953CF3515767EB6431(L_12, ((int32_t)167), L_13, (&V_1), NULL);
+		if (!L_14)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:162>
+		float L_15 = V_1;
+		il2cpp_codegen_memory_barrier();
+		__this->___latestConfidence = L_15;
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:164>
+		return;
+	}
+}
+// Method Definition Index: 119098
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_Update_m5F62794635ABB3DCA923288A7554FE563F046327 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:168>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___labelText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:169>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:171>
+		String_t* L_2 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		bool L_3;
+		L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		String_t* L_4 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		bool L_5;
+		L_5 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_4, _stringLiteral0AEA2C46AAEB233C6D2DF0275EF92FB2E56BAFE9, NULL);
+		if (!L_5)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:173>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___labelText;
+		String_t* L_7 = __this->___latestLabel;
+		il2cpp_codegen_memory_barrier();
+		float L_8 = __this->___latestConfidence;
+		il2cpp_codegen_memory_barrier();
+		float L_9 = ((float)il2cpp_codegen_multiply(L_8, (100.0f)));
+		RuntimeObject* L_10 = Box(il2cpp_defaults.single_class, &L_9);
+		String_t* L_11;
+		L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0CC43D9A9B83153505CB56DB9541730A5E5E1939, L_7, L_10, NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_11);
+		return;
+	}
+
+IL_0063:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:177>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = __this->___labelText;
+		NullCheck(L_12);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:179>
+		return;
+	}
+}
+// Method Definition Index: 119099
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC_OnDestroy_mDF786A4EAAC88E0C6A8C46937E29B6E2093E29AE (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B3_0 = NULL;
+	NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* G_B2_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B6_0 = NULL;
+	TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:183>
+		__this->___running = (bool)0;
+	}
+	try
+	{
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:186>
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_0 = __this->___stream;
+			NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_1 = L_0;
+			if (L_1)
+			{
+				G_B3_0 = L_1;
+				goto IL_0013_1;
+			}
+			G_B2_0 = L_1;
+		}
+		{
+			goto IL_0018_1;
+		}
+
+IL_0013_1:
+		{
+			NullCheck(G_B3_0);
+			VirtualActionInvoker0::Invoke(19, G_B3_0);
+		}
+
+IL_0018_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:187>
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_2 = __this->___client;
+			TcpClient_t753B702EE06B59897564F75CEBFB6C8AFF10BD58* L_3 = L_2;
+			if (L_3)
+			{
+				G_B6_0 = L_3;
+				goto IL_0024_1;
+			}
+			G_B5_0 = L_3;
+		}
+		{
+			goto IL_0029_1;
+		}
+
+IL_0024_1:
+		{
+			NullCheck(G_B6_0);
+			TcpClient_Close_m03E0ED4E4BA87B3F1ED17585AB1327ED76F5FE89(G_B6_0, NULL);
+		}
+
+IL_0029_1:
+		{
+			//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:188>
+			goto IL_002e;
+		}
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (il2cpp_defaults.object_class, il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_002b;
+		}
+		throw e;
+	}
+
+CATCH_002b:
+	{
+		RuntimeObject* L_4 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:189>
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:189>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:191>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = __this->___captureRT;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:192>
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = __this->___captureRT;
+		NullCheck(L_7);
+		RenderTexture_Release_mE7399D6187A0E38945D2913D0FFB41247143AB1E(L_7, NULL);
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:193>
+		return;
+	}
+}
+// Method Definition Index: 119100
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YoloSignClientPC__ctor_m2A7D9C797F5734874C61DEB712F75CA32BDB9B68 (YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:13>
+		__this->___serverIp = _stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___serverIp), (void*)_stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:14>
+		__this->___serverPort = ((int32_t)5000);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:18>
+		__this->___captureInterval = (0.200000003f);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:19>
+		__this->___captureWidth = ((int32_t)320);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:20>
+		__this->___captureHeight = ((int32_t)240);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:21>
+		__this->___jpgQuality = ((int32_t)70);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:30>
+		il2cpp_codegen_memory_barrier();
+		__this->___latestLabel = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___latestLabel), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:32>
+		__this->___running = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119101
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__16__ctor_m647A9920A8B0BD716ED1F5DA26331AC55BE38653 (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 119102
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__16_System_IDisposable_Dispose_mD3106D18149B52AF59BBDFC12093280235A55CD9 (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 119103
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCaptureLoopU3Ed__16_MoveNext_m154C0B484FDA3BEE6E9F567B824902579C2767D8 (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral53D6103E328004EF70389F295A8AC1506BF19299);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0042;
+			}
+			case 2:
+			{
+				goto IL_008e;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:67>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (1.0f), NULL);
+		__this->___U3CU3E2__current = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_3);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0042:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:69>
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_4 = V_1;
+		NullCheck(L_4);
+		WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* L_5 = L_4->___webcamView;
+		NullCheck(L_5);
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_6;
+		L_6 = WebcamView_GetWebCamTexture_mCC95C6D76E410B953793CB75F3B2CAEEBD393339_inline(L_5, NULL);
+		__this->___U3CcamTexU3E5__2 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcamTexU3E5__2), (void*)L_6);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:70>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_7 = __this->___U3CcamTexU3E5__2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:72>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral53D6103E328004EF70389F295A8AC1506BF19299, NULL);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:73>
+		return (bool)0;
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:78>
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_9 = V_1;
+		NullCheck(L_9);
+		float L_10 = L_9->___captureInterval;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_11 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_11, L_10, NULL);
+		__this->___U3CU3E2__current = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_11);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_008e:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:80>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_12 = __this->___U3CcamTexU3E5__2;
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = WebCamTexture_get_isPlaying_mE53901F249CD5FFF9D1C31DDCC2FC331DCEA80CF(L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_14 = __this->___U3CcamTexU3E5__2;
+		NullCheck(L_14);
+		bool L_15;
+		L_15 = WebCamTexture_get_didUpdateThisFrame_m3672350773BAA9131D648B886DFD4E3351F045BE(L_14, NULL);
+		if (!L_15)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:83>
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_16 = V_1;
+		NullCheck(L_16);
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_17 = L_16->___stream;
+		if (!L_17)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_18 = V_1;
+		NullCheck(L_18);
+		NetworkStream_tF39C3684B6D572BF47F518AD1DB1F4B12CEE4AE0* L_19 = L_18->___stream;
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = VirtualFuncInvoker0< bool >::Invoke(10, L_19);
+		if (!L_20)
+		{
+			goto IL_00d0;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:85>
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_21 = V_1;
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_22 = __this->___U3CcamTexU3E5__2;
+		NullCheck(L_21);
+		YoloSignClientPC_SendFrame_mE54845B0CC3BE95070DB5561D8C23D6F6325102D(L_21, L_22, NULL);
+	}
+
+IL_00d0:
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:76>
+		YoloSignClientPC_t65C9C4FA38A01854DA6CF99BED51B316920EE2E9* L_23 = V_1;
+		NullCheck(L_23);
+		bool L_24 = L_23->___running;
+		if (L_24)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/YoloSignClientPC.cs:88>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 119104
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaptureLoopU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC130376F318EEE43796F17BE22716A0F11D2BE33 (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 119105
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCaptureLoopU3Ed__16_System_Collections_IEnumerator_Reset_m02014CAD5B9BE7E647A9DA9C77129CA2CA254BAD (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCaptureLoopU3Ed__16_System_Collections_IEnumerator_Reset_m02014CAD5B9BE7E647A9DA9C77129CA2CA254BAD_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 119106
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCaptureLoopU3Ed__16_System_Collections_IEnumerator_get_Current_mB3E3F196185520894882659E519E3A8FFF723F6D (U3CCaptureLoopU3Ed__16_tBD296863246568D1C1356F8C8736B4FF97BE79BD* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119107
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119108
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 119109
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____254C0D9336D9385F54E649235992D539B01E4A1F57F46269D41611752BA9EC92_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____ACC521CAF26150601958C03D2A0458AF6A4987F5580CBAA1E162A9310A167490_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)496));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____ACC521CAF26150601958C03D2A0458AF6A4987F5580CBAA1E162A9310A167490_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)298));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____254C0D9336D9385F54E649235992D539B01E4A1F57F46269D41611752BA9EC92_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)12);
+		(&V_0)->___TotalTypes = ((int32_t)15);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 119110
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 56923
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___m_XMin = L_0;
+		float L_1 = ___1_y;
+		__this->___m_YMin = L_1;
+		float L_2 = ___2_width;
+		__this->___m_Width = L_2;
+		float L_3 = ___3_height;
+		__this->___m_Height = L_3;
+		return;
+	}
+}
+// Method Definition Index: 58672
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		int32_t L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 119091
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* WebcamView_GetWebCamTexture_mCC95C6D76E410B953793CB75F3B2CAEEBD393339_inline (WebcamView_tBED212C3209BF8C904CBA6B27C9CA1EFF6007761* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/raina/Documents/GitHub/Stanford-XR-Hackathon-2025/Unity/Assets/Scripts/WebcamView.cs:48>
+		WebCamTexture_t2021D179149C925AA6D73E6F1898C8D46521C749* L_0 = __this->___webCamTexture;
+		return L_0;
+	}
+}
+// Method Definition Index: 11504
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 11523
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 11515
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 11609
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_mEDF164EF5C1FF4F383AB7651CDBA76FE79B466FC_gshared_inline (Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
